@@ -1,0 +1,1707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="blogweb:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cf047eea-5c46-4107-9002-1985d9417aa1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/yyl/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/yyl/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/yyl/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-service/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blog-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-service/src/main/java/com/yyl/conf/ServiceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/yyl/conf/ServiceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-service/src/main/java/com/yyl/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/yyl/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-service/src/main/java/com/yyl/start/BlogStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/yyl/start/BlogStart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-service/src/main/resources/dubbo.properties" beforeDir="false" afterPath="$PROJECT_DIR$/blog-service/src/main/resources/dubbo.properties" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/blog-api/target/" />
+    <ignored path="$PROJECT_DIR$/blog-web/target/" />
+    <ignored path="$PROJECT_DIR$/blog-service/target/" />
+    <ignored path="$PROJECT_DIR$/blog-controller/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="blog" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog-service/src/main/java/com/yyl/start/BlogStart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-service/src/main/java/com/yyl/service/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-service/src/main/java/com/yyl/dao/impl/UserDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-controller/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="35" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-service/src/main/java/com/yyl/conf/ServiceConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1052#1068#1" expanded="true" />
+                <element signature="e#1113#1126#1" expanded="true" />
+                <element signature="e#1170#1183#1" expanded="true" />
+                <element signature="e#1225#1233#1" expanded="true" />
+                <element signature="e#1244#1245#0" expanded="true" />
+                <element signature="e#1313#1314#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.0.6.RELEASE/spring-jdbc-5.0.6.RELEASE.jar!/org/springframework/jdbc/datasource/DriverManagerDataSource.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-service/src/main/resources/dubbo.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-service/src/main/java/com/yyl/mapper/UserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-service/src/main/resources/mapper/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="32" selection-start-line="4" selection-start-column="8" selection-end-line="7" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/yy/api/user/UserService.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/yy/api/UserService.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/yyl/api/UserService.java" />
+        <option value="$PROJECT_DIR$/blog-service/src/main/java/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/blog-service/src/main/java/com/yyl/main/BlogStart.java" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resource/consumer.properties" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resource/web.properties" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/java/com/yyl/blog/conf/WebConf.java" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/java/com/yyl/blog/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/java/com/yyl/blog/start/WebStart.java" />
+        <option value="$PROJECT_DIR$/blog-api/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resources/consumer.properties" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resources/web.properties" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/java/com/yyl/web/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/java/com/yyl/web/start/WebStart.java" />
+        <option value="$PROJECT_DIR$/blog-web/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/java/com/yyl/web/conf/WebConf.java" />
+        <option value="$PROJECT_DIR$/blog.iml" />
+        <option value="$PROJECT_DIR$/blog-controller/src/main/resources/consumer.properties" />
+        <option value="$PROJECT_DIR$/blog-controller/src/main/resources/blog.properties" />
+        <option value="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/UserController.java" />
+        <option value="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/conf/WebInitializer.java" />
+        <option value="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/start/WebStart.java" />
+        <option value="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/conf/EmbeddedTomcat.java" />
+        <option value="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/conf/WebConf.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-controller/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/WebStart.java" />
+        <option value="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/conf/ResultMap.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/yyl/model/User.java" />
+        <option value="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/TagController.java" />
+        <option value="$PROJECT_DIR$/blog-service/src/main/java/com/yyl/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/blog-service/src/main/java/com/yyl/dao/impl/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/blog-service/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/blog-service/src/main/java/com/yyl/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/blog-service/src/main/java/com/yyl/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/blog-service/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-service/src/main/resources/dubbo.properties" />
+        <option value="$PROJECT_DIR$/blog-service/src/main/java/com/yyl/conf/ServiceConfig.java" />
+        <option value="$PROJECT_DIR$/blog-service/src/main/java/com/yyl/start/BlogStart.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="blog" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="blog" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="blog-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="blog-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="blog-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="blog-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="120" />
+    <option name="y" value="69" />
+    <option name="width" value="1386" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yyl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yyl" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yyl" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-controller" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yyl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yyl" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yyl" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yyl" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yyl" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yyl" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yyl" type="462c0819:PsiDirectoryNode" />
+              <item name="start" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog-controller/src/main/resources" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yyl.blog.conf" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/blog-controller/src/main/resources" />
+      <recent name="$PROJECT_DIR$/blog-web/src/main/resources" />
+      <recent name="$PROJECT_DIR$/blog-web/src/main/resource" />
+      <recent name="$PROJECT_DIR$/blog-service/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.BlogStart">
+    <configuration name="BlogStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yyl.start.BlogStart" />
+      <module name="blogservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yyl.start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="blogcontroller" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yyl.blog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yyl.blog.WebStart" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.42" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.42" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="blogweb:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/web" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_blog_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63552" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="blogweb:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.BlogStart" />
+      <item itemvalue="Spring Boot.WebStart" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.42" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BlogStart" />
+        <item itemvalue="Spring Boot.WebStart" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf047eea-5c46-4107-9002-1985d9417aa1" name="Default Changelist" comment="" />
+      <created>1560757498863</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560757498863</updated>
+      <workItem from="1560757500165" duration="7637000" />
+      <workItem from="1560765319854" duration="16855000" />
+      <workItem from="1560843352118" duration="3101000" />
+      <workItem from="1560848284089" duration="2477000" />
+      <workItem from="1560860981072" duration="7649000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="37719000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="120" y="69" width="1386" height="877" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49775785" visible="true" weight="0.25744048" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50224215" side_tool="true" weight="0.2537092" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33503184" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5312102" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3299363" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3299363" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3299363" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32937685" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/UserController.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/blog-service/src/main/java/com/yyl/service/UserServiceImpl.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/blog-service/src/main/java/com/yyl/dao/impl/UserDaoImpl.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.0.RELEASE/spring-boot-2.1.0.RELEASE.jar!/org/springframework/boot/convert/DataSizeUnit.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/com/yyl/blog/start/WebStart.java" />
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resource/web.properties" />
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/com/yyl/blog/controller/UserController.java" />
+    <entry file="file://$PROJECT_DIR$/blog-web/target/classes/web.properties" />
+    <entry file="file://$PROJECT_DIR$/blog-web/target/classes/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/com/yyl/blog/conf/WebConf.java" />
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/web/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/com/yyl/App.java" />
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/webapp/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/blog-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/webapp/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/web.properties" />
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/com/yyl/web/controller/UserController.java" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/com/yyl/web/start/WebStart.java" />
+    <entry file="file://$PROJECT_DIR$/blog-web/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/com/yyl/web/conf/WebConf.java" />
+    <entry file="file://$PROJECT_DIR$/blog.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-controller/src/main/resources/blog.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.9.RELEASE/spring-boot-1.5.9.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="684" column="49" selection-start-line="684" selection-start-column="49" selection-end-line="684" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.6.RELEASE/spring-context-4.3.6.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="730" column="16" selection-start-line="730" selection-start-column="16" selection-end-line="730" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.5.RELEASE/spring-boot-autoconfigure-2.1.5.RELEASE.jar!/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.yyl:blog-controller:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.yyl:blog-controller:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="0.0" y="611.7500000000001">com.yyl:blog-controller:1.0-SNAPSHOT</node>
+            <node x="545.5" y="626.5123456790125">com.yyl:blog-api:jar:1.0-SNAPSHOT</node>
+            <node x="495.0" y="586.5123456790125">org.springframework.boot:spring-boot-starter-web:jar:unknown</node>
+            <node x="521.0" y="546.5123456790125">javax.servlet:javax.servlet-api:jar:unknown</node>
+            <node x="486.0" y="506.5123456790124">org.springframework.boot:spring-boot-starter-tomcat:jar:unknown</node>
+            <node x="534.0" y="266.51234567901236">org.springframework.boot:spring-boot:jar:2.1.5.RELEASE</node>
+            <node x="730.0" y="571.2500000000001">org.springframework.boot:spring-boot:jar:2.1.5.RELEASE/org.springframework:spring-core:jar:5.1.7.RELEASE</node>
+            <node x="720.0" y="611.2500000000001">org.springframework.boot:spring-boot:jar:2.1.5.RELEASE/org.springframework:spring-context:jar:5.1.7.RELEASE</node>
+            <node x="487.5" y="185.446937321937">org.springframework.boot:spring-boot-autoconfigure:jar:2.1.5.RELEASE</node>
+            <node x="513.0" y="80.44693732193696">org.apache.curator:curator-framework:jar:2.8.0</node>
+            <node x="724.0" y="65.0">org.apache.curator:curator-framework:jar:2.8.0/org.apache.curator:curator-client:jar:2.8.0</node>
+            <node x="734.0" y="198.1111111111111">org.apache.curator:curator-framework:jar:2.8.0/org.apache.zookeeper:zookeeper:jar:3.4.6</node>
+            <node x="870.0" y="193.1111111111111">org.apache.curator:curator-framework:jar:2.8.0/org.apache.zookeeper:zookeeper:jar:3.4.6/jline:jline:jar:0.9.94</node>
+            <node x="866.0" y="233.1111111111111">org.apache.curator:curator-framework:jar:2.8.0/org.apache.zookeeper:zookeeper:jar:3.4.6/io.netty:netty:jar:3.7.0.Final</node>
+            <node x="747.5" y="0.0">org.apache.curator:curator-framework:jar:2.8.0/com.google.guava:guava:jar:16.0.1</node>
+            <node x="546.0" y="466.5123456790124">com.alibaba:fastjson:jar:1.2.33</node>
+            <node x="548.5" y="386.5123456790124">org.projectlombok:lombok:jar:1.16.10</node>
+            <node x="523.5" y="0.0">org.apache.curator:curator-recipes:jar:2.8.0</node>
+            <node x="533.0" y="145.446937321937">org.slf4j:slf4j-log4j12:jar:1.7.25</node>
+            <node x="741.0" y="145.00000000000006">org.slf4j:slf4j-log4j12:jar:1.7.25/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="751.0" y="105.0">org.slf4j:slf4j-log4j12:jar:1.7.25/log4j:log4j:jar:1.2.17</node>
+            <node x="551.0" y="346.5123456790124">com.alibaba:dubbo:jar:2.6.2</node>
+            <node x="739.5" y="295.0000000000001">com.alibaba:dubbo:jar:2.6.2/org.javassist:javassist:jar:3.20.0-GA</node>
+            <node x="750.0" y="255.0000000000001">com.alibaba:dubbo:jar:2.6.2/org.jboss.netty:netty:jar:3.2.5.Final</node>
+            <node x="535.0" y="946.5123456790125">org.springframework:spring-core:jar:4.3.6.RELEASE</node>
+            <node x="710.0" y="969.1765194681864">org.springframework:spring-core:jar:4.3.6.RELEASE/commons-logging:commons-logging:jar:1.2</node>
+            <node x="530.0" y="1066.5123456790125">org.springframework:spring-beans:jar:4.3.6.RELEASE</node>
+            <node x="525.0" y="1126.5123456790125">org.springframework:spring-context:jar:4.3.6.RELEASE</node>
+            <node x="710.0" y="1246.2802706552702">org.springframework:spring-context:jar:4.3.6.RELEASE/org.springframework:spring-expression:jar:4.3.6.RELEASE</node>
+            <node x="535.5" y="786.5123456790125">org.springframework:spring-jdbc:jar:4.3.6.RELEASE</node>
+            <node x="536.0" y="1186.5123456790125">org.springframework:spring-web:jar:4.3.6.RELEASE</node>
+            <node x="523.5" y="1306.5123456790125">org.springframework:spring-webmvc:jar:4.3.6.RELEASE</node>
+            <node x="537.0" y="1246.5123456790125">org.springframework:spring-aop:jar:4.3.6.RELEASE</node>
+            <node x="542.5" y="846.5123456790125">org.springframework:spring-tx:jar:4.3.6.RELEASE</node>
+            <node x="536.5" y="726.5123456790125">org.springframework:spring-orm:jar:4.3.6.RELEASE</node>
+            <node x="497.5" y="886.5123456790125">org.springframework:spring-context-support:jar:4.3.6.RELEASE</node>
+            <node x="536.5" y="686.5123456790125">org.springframework:spring-test:jar:4.3.6.RELEASE</node>
+            <node x="538.0" y="1006.5123456790125">org.springframework:spring-jms:jar:4.3.6.RELEASE</node>
+            <node x="710.5" y="1091.5123456790125">org.springframework:spring-jms:jar:4.3.6.RELEASE/org.springframework:spring-messaging:jar:4.3.6.RELEASE</node>
+            <node x="544.0" y="426.5123456790124">org.aspectj:aspectjrt:jar:1.6.11</node>
+            <node x="527.5" y="306.5123456790124">org.aspectj:aspectjweaver:jar:1.6.11</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.yyl:blog-api:jar:1.0-SNAPSHOT" target="org.springframework:spring-tx:jar:4.3.6.RELEASE">
+              <point x="-37.5" y="7.5" />
+              <point x="446.0" y="644.0123456790125" />
+              <point x="446.0" y="851.5123456790125" />
+              <point x="-40.5" y="-5.0" />
+            </edge>
+            <edge source="com.yyl:blog-api:jar:1.0-SNAPSHOT" target="org.apache.curator:curator-recipes:jar:2.8.0">
+              <point x="-37.5" y="-2.5" />
+              <point x="146.0" y="634.0123456790125" />
+              <point x="146.0" y="15.0" />
+              <point x="-59.5" y="5.0" />
+            </edge>
+            <edge source="com.yyl:blog-api:jar:1.0-SNAPSHOT" target="org.springframework:spring-beans:jar:4.3.6.RELEASE">
+              <point x="-37.5" y="3.5" />
+              <point x="306.0" y="640.0123456790125" />
+              <point x="306.0" y="1077.5123456790125" />
+              <point x="-53.0" y="1.0" />
+            </edge>
+            <edge source="org.apache.curator:curator-framework:jar:2.8.0" target="org.apache.curator:curator-framework:jar:2.8.0/org.apache.curator:curator-client:jar:2.8.0">
+              <point x="70.0" y="-0.0" />
+              <point x="680.0" y="90.44693732193696" />
+              <point x="700.0" y="70.0" />
+              <point x="-54.0" y="-5.0" />
+            </edge>
+            <edge source="org.springframework:spring-aop:jar:4.3.6.RELEASE" target="org.springframework:spring-beans:jar:4.3.6.RELEASE">
+              <point x="-46.0" y="-5.0" />
+              <point x="216.0" y="1251.5123456790125" />
+              <point x="216.0" y="1083.5123456790125" />
+              <point x="-53.0" y="7.0" />
+            </edge>
+            <edge source="com.yyl:blog-api:jar:1.0-SNAPSHOT" target="org.springframework:spring-core:jar:4.3.6.RELEASE">
+              <point x="-37.5" y="5.5" />
+              <point x="386.0" y="642.0123456790125" />
+              <point x="386.0" y="954.6941638608306" />
+              <point x="-48.0" y="-1.818181818181813" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.6.RELEASE" target="org.springframework:spring-context:jar:4.3.6.RELEASE/org.springframework:spring-expression:jar:4.3.6.RELEASE">
+              <point x="59.5" y="-0.0" />
+              <point x="680.0" y="1316.5123456790125" />
+              <point x="-68.0" y="6.666666666666657" />
+            </edge>
+            <edge source="org.springframework:spring-tx:jar:4.3.6.RELEASE" target="org.springframework:spring-core:jar:4.3.6.RELEASE">
+              <point x="-40.5" y="8.333333333333371" />
+              <point x="426.0" y="864.8456790123457" />
+              <point x="426.0" y="947.4214365881033" />
+              <point x="-48.0" y="-9.090909090909093" />
+            </edge>
+            <edge source="org.apache.curator:curator-framework:jar:2.8.0/org.apache.curator:curator-client:jar:2.8.0" target="org.apache.curator:curator-framework:jar:2.8.0/org.apache.zookeeper:zookeeper:jar:3.4.6">
+              <point x="-54.0" y="5.0" />
+              <point x="700.0" y="80.0" />
+              <point x="700.0" y="201.44444444444434" />
+              <point x="-44.0" y="-6.6666666666667425" />
+            </edge>
+            <edge source="org.apache.curator:curator-recipes:jar:2.8.0" target="org.apache.curator:curator-framework:jar:2.8.0/org.apache.zookeeper:zookeeper:jar:3.4.6">
+              <point x="59.5" y="5.0" />
+              <point x="680.0" y="15.0" />
+              <point x="700.0" y="208.1111111111111" />
+              <point x="-44.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot:jar:2.1.5.RELEASE/org.springframework:spring-core:jar:5.1.7.RELEASE" target="org.springframework:spring-core:jar:4.3.6.RELEASE">
+              <point x="-48.0" y="5.0" />
+              <point x="700.0" y="586.2500000000001" />
+              <point x="680.0" y="949.0123456790125" />
+              <point x="48.0" y="-7.5" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.6.RELEASE" target="org.springframework:spring-aop:jar:4.3.6.RELEASE">
+              <point x="0.0" y="-10.0" />
+              <point x="0.0" y="10.0" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.3.6.RELEASE" target="org.springframework:spring-context:jar:4.3.6.RELEASE">
+              <point x="-45.0" y="8.0" />
+              <point x="296.0" y="1024.5123456790125" />
+              <point x="296.0" y="1127.940917107584" />
+              <point x="-58.0" y="-8.571428571428584" />
+            </edge>
+            <edge source="org.springframework:spring-aop:jar:4.3.6.RELEASE" target="org.springframework:spring-core:jar:4.3.6.RELEASE">
+              <point x="-46.0" y="1.6666666666666679" />
+              <point x="196.0" y="1258.179012345679" />
+              <point x="196.0" y="960.148709315376" />
+              <point x="-48.0" y="3.636363636363626" />
+            </edge>
+            <edge source="com.yyl:blog-controller:1.0-SNAPSHOT" target="org.projectlombok:lombok:jar:1.16.10">
+              <point x="58.0" y="-4.230769230769283" />
+              <point x="136.0" y="391.5123456790124" />
+              <point x="-34.5" y="-5.0" />
+            </edge>
+            <edge source="com.alibaba:dubbo:jar:2.6.2" target="com.alibaba:dubbo:jar:2.6.2/org.jboss.netty:netty:jar:3.2.5.Final">
+              <point x="32.0" y="-5.0" />
+              <point x="680.0" y="351.5123456790124" />
+              <point x="700.0" y="265.0000000000001" />
+              <point x="-28.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.3.6.RELEASE" target="org.springframework:spring-aop:jar:4.3.6.RELEASE">
+              <point x="-58.0" y="8.571428571428584" />
+              <point x="226.0" y="1145.083774250441" />
+              <point x="226.0" y="1248.179012345679" />
+              <point x="-46.0" y="-8.333333333333334" />
+            </edge>
+            <edge source="com.yyl:blog-api:jar:1.0-SNAPSHOT" target="org.springframework:spring-context:jar:4.3.6.RELEASE">
+              <point x="-37.5" y="2.5" />
+              <point x="266.0" y="639.0123456790125" />
+              <point x="266.0" y="1136.5123456790125" />
+              <point x="-58.0" y="-0.0" />
+            </edge>
+            <edge source="com.yyl:blog-controller:1.0-SNAPSHOT" target="org.springframework:spring-web:jar:4.3.6.RELEASE">
+              <point x="58.0" y="8.076923076923094" />
+              <point x="136.0" y="1200.5123456790125" />
+              <point x="-47.0" y="4.0" />
+            </edge>
+            <edge source="com.yyl:blog-controller:1.0-SNAPSHOT" target="org.springframework:spring-context-support:jar:4.3.6.RELEASE">
+              <point x="58.0" y="4.230769230769283" />
+              <point x="136.0" y="894.0123456790125" />
+              <point x="-85.5" y="-2.5" />
+            </edge>
+            <edge source="com.yyl:blog-controller:1.0-SNAPSHOT" target="com.yyl:blog-api:jar:1.0-SNAPSHOT">
+              <point x="58.0" y="0.3846153846153584" />
+              <point x="136.0" y="635.0123456790125" />
+              <point x="-37.5" y="-1.5" />
+            </edge>
+            <edge source="com.yyl:blog-controller:1.0-SNAPSHOT" target="org.springframework:spring-jdbc:jar:4.3.6.RELEASE">
+              <point x="58.0" y="2.692307692307736" />
+              <point x="136.0" y="794.0123456790125" />
+              <point x="-47.5" y="-2.5" />
+            </edge>
+            <edge source="com.yyl:blog-controller:1.0-SNAPSHOT" target="org.slf4j:slf4j-log4j12:jar:1.7.25">
+              <point x="58.0" y="-8.076923076923094" />
+              <point x="136.0" y="150.446937321937" />
+              <point x="-50.0" y="-5.0" />
+            </edge>
+            <edge source="org.slf4j:slf4j-log4j12:jar:1.7.25" target="org.slf4j:slf4j-log4j12:jar:1.7.25/log4j:log4j:jar:1.2.17">
+              <point x="50.0" y="-5.0" />
+              <point x="680.0" y="150.446937321937" />
+              <point x="700.0" y="115.0" />
+              <point x="-27.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.3.6.RELEASE/org.springframework:spring-messaging:jar:4.3.6.RELEASE" target="org.springframework:spring-beans:jar:4.3.6.RELEASE">
+              <point x="-67.5" y="2.5" />
+              <point x="680.0" y="1076.5123456790125" />
+              <point x="53.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.6.RELEASE" target="org.springframework:spring-context:jar:4.3.6.RELEASE">
+              <point x="-59.5" y="-5.0" />
+              <point x="166.0" y="1311.5123456790125" />
+              <point x="166.0" y="1142.2266313932982" />
+              <point x="-58.0" y="5.714285714285722" />
+            </edge>
+            <edge source="org.apache.curator:curator-framework:jar:2.8.0/org.apache.zookeeper:zookeeper:jar:3.4.6" target="org.apache.curator:curator-framework:jar:2.8.0/org.apache.zookeeper:zookeeper:jar:3.4.6/io.netty:netty:jar:3.7.0.Final">
+              <point x="44.0" y="5.0" />
+              <point x="846.0" y="213.1111111111111" />
+              <point x="-28.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot:jar:2.1.5.RELEASE/org.springframework:spring-context:jar:5.1.7.RELEASE" target="org.springframework:spring-context:jar:4.3.6.RELEASE">
+              <point x="-58.0" y="5.0" />
+              <point x="700.0" y="626.2500000000001" />
+              <point x="680.0" y="1129.845679012346" />
+              <point x="58.0" y="-6.666666666666629" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.6.RELEASE" target="org.springframework:spring-web:jar:4.3.6.RELEASE">
+              <point x="-59.5" y="-8.333333333333329" />
+              <point x="176.0" y="1308.179012345679" />
+              <point x="176.0" y="1204.5123456790125" />
+              <point x="-47.0" y="8.0" />
+            </edge>
+            <edge source="com.yyl:blog-api:jar:1.0-SNAPSHOT" target="org.springframework:spring-orm:jar:4.3.6.RELEASE">
+              <point x="-37.5" y="9.5" />
+              <point x="476.0" y="646.0123456790125" />
+              <point x="476.0" y="728.5123456790125" />
+              <point x="-46.5" y="-8.0" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.3.6.RELEASE/org.springframework:spring-messaging:jar:4.3.6.RELEASE" target="org.springframework:spring-core:jar:4.3.6.RELEASE">
+              <point x="-67.5" y="-7.5" />
+              <point x="680.0" y="959.0123456790125" />
+              <point x="48.0" y="2.5" />
+            </edge>
+            <edge source="com.yyl:blog-api:jar:1.0-SNAPSHOT" target="org.aspectj:aspectjrt:jar:1.6.11">
+              <point x="-37.5" y="-8.5" />
+              <point x="206.0" y="628.0123456790125" />
+              <point x="206.0" y="441.5123456790124" />
+              <point x="-39.0" y="5.0" />
+            </edge>
+            <edge source="com.yyl:blog-api:jar:1.0-SNAPSHOT" target="com.alibaba:fastjson:jar:1.2.33">
+              <point x="-37.5" y="-9.5" />
+              <point x="216.0" y="627.0123456790125" />
+              <point x="216.0" y="481.5123456790124" />
+              <point x="-37.0" y="5.0" />
+            </edge>
+            <edge source="org.springframework:spring-orm:jar:4.3.6.RELEASE" target="org.springframework:spring-beans:jar:4.3.6.RELEASE">
+              <point x="-46.5" y="-0.0" />
+              <point x="316.0" y="736.5123456790125" />
+              <point x="316.0" y="1075.5123456790125" />
+              <point x="-53.0" y="-1.0" />
+            </edge>
+            <edge source="com.yyl:blog-controller:1.0-SNAPSHOT" target="org.aspectj:aspectjrt:jar:1.6.11">
+              <point x="58.0" y="-3.461538461538453" />
+              <point x="136.0" y="431.5123456790124" />
+              <point x="-39.0" y="-5.0" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.3.6.RELEASE" target="org.springframework:spring-tx:jar:4.3.6.RELEASE">
+              <point x="-45.0" y="-8.0" />
+              <point x="376.0" y="1008.5123456790125" />
+              <point x="376.0" y="861.5123456790125" />
+              <point x="-40.5" y="5.0" />
+            </edge>
+            <edge source="org.springframework:spring-test:jar:4.3.6.RELEASE" target="org.springframework:spring-core:jar:4.3.6.RELEASE">
+              <point x="-46.5" y="5.0" />
+              <point x="396.0" y="701.5123456790125" />
+              <point x="396.0" y="952.8759820426487" />
+              <point x="-48.0" y="-3.636363636363626" />
+            </edge>
+            <edge source="com.yyl:blog-api:jar:1.0-SNAPSHOT" target="org.springframework:spring-web:jar:4.3.6.RELEASE">
+              <point x="-37.5" y="1.5" />
+              <point x="236.0" y="638.0123456790125" />
+              <point x="236.0" y="1196.5123456790125" />
+              <point x="-47.0" y="-0.0" />
+            </edge>
+            <edge source="com.yyl:blog-controller:1.0-SNAPSHOT" target="org.springframework.boot:spring-boot:jar:2.1.5.RELEASE">
+              <point x="58.0" y="-6.538461538461547" />
+              <point x="136.0" y="276.51234567901236" />
+              <point x="-49.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.3.6.RELEASE" target="org.springframework:spring-jms:jar:4.3.6.RELEASE/org.springframework:spring-messaging:jar:4.3.6.RELEASE">
+              <point x="45.0" y="-0.0" />
+              <point x="680.0" y="1016.5123456790125" />
+              <point x="-67.5" y="-2.5" />
+            </edge>
+            <edge source="com.yyl:blog-controller:1.0-SNAPSHOT" target="org.springframework:spring-tx:jar:4.3.6.RELEASE">
+              <point x="58.0" y="3.461538461538453" />
+              <point x="136.0" y="854.8456790123457" />
+              <point x="-40.5" y="-1.6666666666666288" />
+            </edge>
+            <edge source="com.yyl:blog-controller:1.0-SNAPSHOT" target="org.springframework:spring-test:jar:4.3.6.RELEASE">
+              <point x="58.0" y="1.1538461538461888" />
+              <point x="136.0" y="691.5123456790125" />
+              <point x="-46.5" y="-5.0" />
+            </edge>
+            <edge source="org.apache.curator:curator-recipes:jar:2.8.0" target="org.apache.curator:curator-framework:jar:2.8.0">
+              <point x="0.0" y="10.0" />
+              <point x="0.0" y="-10.0" />
+            </edge>
+            <edge source="com.yyl:blog-controller:1.0-SNAPSHOT" target="org.aspectj:aspectjweaver:jar:1.6.11">
+              <point x="58.0" y="-5.769230769230717" />
+              <point x="136.0" y="311.5123456790124" />
+              <point x="-55.5" y="-5.0" />
+            </edge>
+            <edge source="com.yyl:blog-controller:1.0-SNAPSHOT" target="org.springframework:spring-context:jar:4.3.6.RELEASE">
+              <point x="58.0" y="7.307692307692264" />
+              <point x="136.0" y="1139.3694885361554" />
+              <point x="-58.0" y="2.857142857142861" />
+            </edge>
+            <edge source="org.apache.curator:curator-framework:jar:2.8.0" target="org.apache.curator:curator-framework:jar:2.8.0/org.apache.zookeeper:zookeeper:jar:3.4.6">
+              <point x="70.0" y="6.6666666666667425" />
+              <point x="680.0" y="97.1136039886037" />
+              <point x="700.0" y="214.77777777777783" />
+              <point x="-44.0" y="6.6666666666667425" />
+            </edge>
+            <edge source="com.yyl:blog-controller:1.0-SNAPSHOT" target="com.alibaba:dubbo:jar:2.6.2">
+              <point x="58.0" y="-5.0" />
+              <point x="136.0" y="351.5123456790124" />
+              <point x="-32.0" y="-5.0" />
+            </edge>
+            <edge source="org.apache.curator:curator-recipes:jar:2.8.0" target="org.apache.curator:curator-framework:jar:2.8.0/com.google.guava:guava:jar:16.0.1">
+              <point x="59.5" y="-5.0" />
+              <point x="-30.5" y="-5.0" />
+            </edge>
+            <edge source="com.yyl:blog-api:jar:1.0-SNAPSHOT" target="org.springframework:spring-jms:jar:4.3.6.RELEASE">
+              <point x="-37.5" y="4.5" />
+              <point x="366.0" y="641.0123456790125" />
+              <point x="366.0" y="1012.5123456790125" />
+              <point x="-45.0" y="-4.0" />
+            </edge>
+            <edge source="com.yyl:blog-controller:1.0-SNAPSHOT" target="org.springframework:spring-orm:jar:4.3.6.RELEASE">
+              <point x="58.0" y="1.9230769230769056" />
+              <point x="136.0" y="732.5123456790125" />
+              <point x="-46.5" y="-4.0" />
+            </edge>
+            <edge source="com.alibaba:dubbo:jar:2.6.2" target="com.alibaba:dubbo:jar:2.6.2/org.javassist:javassist:jar:3.20.0-GA">
+              <point x="32.0" y="5.0" />
+              <point x="680.0" y="361.5123456790124" />
+              <point x="700.0" y="305.0000000000001" />
+              <point x="-38.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-orm:jar:4.3.6.RELEASE" target="org.springframework:spring-jdbc:jar:4.3.6.RELEASE">
+              <point x="0.0" y="10.0" />
+              <point x="0.0" y="-10.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.3.6.RELEASE" target="org.springframework:spring-core:jar:4.3.6.RELEASE">
+              <point x="-58.0" y="-5.714285714285722" />
+              <point x="286.0" y="1130.7980599647267" />
+              <point x="286.0" y="963.7850729517397" />
+              <point x="-48.0" y="7.272727272727252" />
+            </edge>
+            <edge source="com.yyl:blog-api:jar:1.0-SNAPSHOT" target="org.springframework:spring-webmvc:jar:4.3.6.RELEASE">
+              <point x="-37.5" y="-0.5" />
+              <point x="136.0" y="636.0123456790125" />
+              <point x="136.0" y="1321.5123456790125" />
+              <point x="-59.5" y="5.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-autoconfigure:jar:2.1.5.RELEASE" target="org.springframework.boot:spring-boot:jar:2.1.5.RELEASE">
+              <point x="0.0" y="10.0" />
+              <point x="0.0" y="-10.0" />
+            </edge>
+            <edge source="org.apache.curator:curator-framework:jar:2.8.0/org.apache.zookeeper:zookeeper:jar:3.4.6" target="org.apache.curator:curator-framework:jar:2.8.0/org.apache.zookeeper:zookeeper:jar:3.4.6/jline:jline:jar:0.9.94">
+              <point x="44.0" y="-5.0" />
+              <point x="-24.0" y="-0.0" />
+            </edge>
+            <edge source="com.yyl:blog-controller:1.0-SNAPSHOT" target="javax.servlet:javax.servlet-api:jar:unknown">
+              <point x="58.0" y="-1.1538461538461888" />
+              <point x="136.0" y="556.5123456790125" />
+              <point x="-62.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-core:jar:4.3.6.RELEASE" target="org.springframework:spring-core:jar:4.3.6.RELEASE/commons-logging:commons-logging:jar:1.2">
+              <point x="48.0" y="-2.5" />
+              <point x="680.0" y="954.0123456790125" />
+              <point x="-68.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context-support:jar:4.3.6.RELEASE" target="org.springframework:spring-beans:jar:4.3.6.RELEASE">
+              <point x="-85.5" y="7.5" />
+              <point x="346.0" y="904.0123456790125" />
+              <point x="346.0" y="1069.5123456790125" />
+              <point x="-53.0" y="-7.0" />
+            </edge>
+            <edge source="org.springframework:spring-context-support:jar:4.3.6.RELEASE" target="org.springframework:spring-core:jar:4.3.6.RELEASE">
+              <point x="0.0" y="10.0" />
+              <point x="0.0" y="-10.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot:jar:2.1.5.RELEASE" target="org.springframework.boot:spring-boot:jar:2.1.5.RELEASE/org.springframework:spring-context:jar:5.1.7.RELEASE">
+              <point x="49.0" y="5.0" />
+              <point x="680.0" y="281.51234567901236" />
+              <point x="700.0" y="616.2500000000001" />
+              <point x="-58.0" y="-5.0" />
+            </edge>
+            <edge source="com.yyl:blog-controller:1.0-SNAPSHOT" target="org.springframework.boot:spring-boot-autoconfigure:jar:2.1.5.RELEASE">
+              <point x="58.0" y="-7.307692307692264" />
+              <point x="136.0" y="195.446937321937" />
+              <point x="-95.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.6.RELEASE" target="org.springframework:spring-context:jar:4.3.6.RELEASE">
+              <point x="0.0" y="-10.0" />
+              <point x="0.0" y="10.0" />
+            </edge>
+            <edge source="com.yyl:blog-api:jar:1.0-SNAPSHOT" target="org.springframework:spring-test:jar:4.3.6.RELEASE">
+              <point x="0.0" y="10.0" />
+              <point x="0.0" y="-10.0" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.3.6.RELEASE" target="org.springframework:spring-tx:jar:4.3.6.RELEASE">
+              <point x="0.0" y="10.0" />
+              <point x="0.0" y="-10.0" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.3.6.RELEASE/org.springframework:spring-messaging:jar:4.3.6.RELEASE" target="org.springframework:spring-context:jar:4.3.6.RELEASE">
+              <point x="-67.5" y="7.5" />
+              <point x="680.0" y="1136.5123456790125" />
+              <point x="58.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.6.RELEASE" target="org.springframework:spring-beans:jar:4.3.6.RELEASE">
+              <point x="-59.5" y="-1.6666666666666572" />
+              <point x="156.0" y="1314.845679012346" />
+              <point x="156.0" y="1081.5123456790125" />
+              <point x="-53.0" y="5.0" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.3.6.RELEASE" target="org.springframework:spring-beans:jar:4.3.6.RELEASE">
+              <point x="-47.5" y="2.5" />
+              <point x="326.0" y="799.0123456790125" />
+              <point x="326.0" y="1073.5123456790125" />
+              <point x="-53.0" y="-3.0" />
+            </edge>
+            <edge source="org.springframework:spring-beans:jar:4.3.6.RELEASE" target="org.springframework:spring-core:jar:4.3.6.RELEASE">
+              <point x="-53.0" y="-9.0" />
+              <point x="356.0" y="1067.5123456790125" />
+              <point x="356.0" y="965.6032547699215" />
+              <point x="-48.0" y="9.090909090909065" />
+            </edge>
+            <edge source="org.springframework:spring-context-support:jar:4.3.6.RELEASE" target="org.springframework:spring-context:jar:4.3.6.RELEASE">
+              <point x="-85.5" y="2.5" />
+              <point x="276.0" y="899.0123456790125" />
+              <point x="276.0" y="1133.6552028218696" />
+              <point x="-58.0" y="-2.857142857142861" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.3.6.RELEASE" target="org.springframework:spring-beans:jar:4.3.6.RELEASE">
+              <point x="0.0" y="-10.0" />
+              <point x="0.0" y="10.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot:jar:2.1.5.RELEASE" target="org.springframework.boot:spring-boot:jar:2.1.5.RELEASE/org.springframework:spring-core:jar:5.1.7.RELEASE">
+              <point x="49.0" y="-5.0" />
+              <point x="680.0" y="271.51234567901236" />
+              <point x="700.0" y="576.2500000000001" />
+              <point x="-48.0" y="-5.0" />
+            </edge>
+            <edge source="com.yyl:blog-controller:1.0-SNAPSHOT" target="org.apache.curator:curator-recipes:jar:2.8.0">
+              <point x="58.0" y="-9.615384615384642" />
+              <point x="136.0" y="5.0" />
+              <point x="-59.5" y="-5.0" />
+            </edge>
+            <edge source="com.yyl:blog-api:jar:1.0-SNAPSHOT" target="org.springframework:spring-aop:jar:4.3.6.RELEASE">
+              <point x="-37.5" y="0.5" />
+              <point x="186.0" y="637.0123456790125" />
+              <point x="186.0" y="1261.5123456790125" />
+              <point x="-46.0" y="5.000000000000002" />
+            </edge>
+            <edge source="com.yyl:blog-api:jar:1.0-SNAPSHOT" target="org.apache.curator:curator-framework:jar:2.8.0">
+              <point x="-37.5" y="-3.5" />
+              <point x="156.0" y="633.0123456790125" />
+              <point x="156.0" y="95.44693732193696" />
+              <point x="-70.0" y="5.0" />
+            </edge>
+            <edge source="org.apache.curator:curator-framework:jar:2.8.0/org.apache.curator:curator-client:jar:2.8.0" target="org.apache.curator:curator-framework:jar:2.8.0/com.google.guava:guava:jar:16.0.1">
+              <point x="0.0" y="-10.0" />
+              <point x="0.0" y="10.0" />
+            </edge>
+            <edge source="com.yyl:blog-api:jar:1.0-SNAPSHOT" target="org.aspectj:aspectjweaver:jar:1.6.11">
+              <point x="-37.5" y="-5.5" />
+              <point x="176.0" y="631.0123456790125" />
+              <point x="176.0" y="321.5123456790124" />
+              <point x="-55.5" y="5.0" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.3.6.RELEASE" target="org.springframework:spring-beans:jar:4.3.6.RELEASE">
+              <point x="0.0" y="10.0" />
+              <point x="0.0" y="-10.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.6.RELEASE" target="org.springframework:spring-aop:jar:4.3.6.RELEASE">
+              <point x="0.0" y="10.0" />
+              <point x="0.0" y="-10.0" />
+            </edge>
+            <edge source="com.yyl:blog-controller:1.0-SNAPSHOT" target="org.springframework:spring-core:jar:4.3.6.RELEASE">
+              <point x="58.0" y="5.0" />
+              <point x="136.0" y="956.5123456790125" />
+              <point x="-48.0" y="-0.0" />
+            </edge>
+            <edge source="com.yyl:blog-controller:1.0-SNAPSHOT" target="org.springframework:spring-webmvc:jar:4.3.6.RELEASE">
+              <point x="58.0" y="9.615384615384642" />
+              <point x="136.0" y="1324.845679012346" />
+              <point x="-59.5" y="8.333333333333343" />
+            </edge>
+            <edge source="org.springframework:spring-orm:jar:4.3.6.RELEASE" target="org.springframework:spring-core:jar:4.3.6.RELEASE">
+              <point x="-46.5" y="4.0" />
+              <point x="406.0" y="740.5123456790125" />
+              <point x="406.0" y="951.057800224467" />
+              <point x="-48.0" y="-5.454545454545439" />
+            </edge>
+            <edge source="com.yyl:blog-api:jar:1.0-SNAPSHOT" target="com.alibaba:dubbo:jar:2.6.2">
+              <point x="-37.5" y="-6.5" />
+              <point x="186.0" y="630.0123456790125" />
+              <point x="186.0" y="361.5123456790124" />
+              <point x="-32.0" y="5.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.6.RELEASE" target="org.springframework:spring-core:jar:4.3.6.RELEASE">
+              <point x="-59.5" y="1.6666666666666572" />
+              <point x="146.0" y="1318.179012345679" />
+              <point x="146.0" y="958.3305274971942" />
+              <point x="-48.0" y="1.818181818181813" />
+            </edge>
+            <edge source="com.yyl:blog-controller:1.0-SNAPSHOT" target="org.springframework:spring-jms:jar:4.3.6.RELEASE">
+              <point x="58.0" y="5.7692307692308304" />
+              <point x="136.0" y="1016.5123456790125" />
+              <point x="-45.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.3.6.RELEASE" target="org.springframework:spring-core:jar:4.3.6.RELEASE">
+              <point x="0.0" y="-10.0" />
+              <point x="0.0" y="10.0" />
+            </edge>
+            <edge source="org.apache.curator:curator-framework:jar:2.8.0" target="org.apache.curator:curator-framework:jar:2.8.0/com.google.guava:guava:jar:16.0.1">
+              <point x="70.0" y="-6.6666666666667425" />
+              <point x="680.0" y="83.78027065527021" />
+              <point x="700.0" y="15.0" />
+              <point x="-30.5" y="5.0" />
+            </edge>
+            <edge source="org.springframework:spring-orm:jar:4.3.6.RELEASE" target="org.springframework:spring-tx:jar:4.3.6.RELEASE">
+              <point x="-46.5" y="8.0" />
+              <point x="456.0" y="744.5123456790125" />
+              <point x="456.0" y="848.179012345679" />
+              <point x="-40.5" y="-8.333333333333371" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.6.RELEASE" target="org.springframework:spring-beans:jar:4.3.6.RELEASE">
+              <point x="-47.0" y="-8.0" />
+              <point x="256.0" y="1188.5123456790125" />
+              <point x="256.0" y="1085.5123456790125" />
+              <point x="-53.0" y="9.0" />
+            </edge>
+            <edge source="com.yyl:blog-controller:1.0-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-web:jar:unknown">
+              <point x="58.0" y="-0.3846153846153584" />
+              <point x="136.0" y="596.5123456790125" />
+              <point x="-88.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-jms:jar:4.3.6.RELEASE" target="org.springframework:spring-aop:jar:4.3.6.RELEASE">
+              <point x="-45.0" y="4.0" />
+              <point x="206.0" y="1020.5123456790125" />
+              <point x="206.0" y="1254.845679012346" />
+              <point x="-46.0" y="-1.666666666666666" />
+            </edge>
+            <edge source="com.yyl:blog-controller:1.0-SNAPSHOT" target="org.apache.curator:curator-framework:jar:2.8.0">
+              <point x="58.0" y="-8.846153846153811" />
+              <point x="136.0" y="85.44693732193696" />
+              <point x="-70.0" y="-5.0" />
+            </edge>
+            <edge source="com.yyl:blog-controller:1.0-SNAPSHOT" target="com.alibaba:fastjson:jar:1.2.33">
+              <point x="58.0" y="-2.692307692307736" />
+              <point x="136.0" y="471.5123456790124" />
+              <point x="-37.0" y="-5.0" />
+            </edge>
+            <edge source="com.yyl:blog-controller:1.0-SNAPSHOT" target="org.springframework:spring-aop:jar:4.3.6.RELEASE">
+              <point x="58.0" y="8.846153846153811" />
+              <point x="136.0" y="1264.845679012346" />
+              <point x="-46.0" y="8.333333333333336" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.6.RELEASE" target="org.springframework:spring-core:jar:4.3.6.RELEASE">
+              <point x="-47.0" y="-4.0" />
+              <point x="246.0" y="1192.5123456790125" />
+              <point x="246.0" y="961.9668911335579" />
+              <point x="-48.0" y="5.454545454545439" />
+            </edge>
+            <edge source="org.springframework:spring-tx:jar:4.3.6.RELEASE" target="org.springframework:spring-beans:jar:4.3.6.RELEASE">
+              <point x="-40.5" y="1.6666666666666288" />
+              <point x="336.0" y="858.179012345679" />
+              <point x="336.0" y="1071.5123456790125" />
+              <point x="-53.0" y="-5.0" />
+            </edge>
+            <edge source="org.slf4j:slf4j-log4j12:jar:1.7.25" target="org.slf4j:slf4j-log4j12:jar:1.7.25/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="50.0" y="5.0" />
+              <point x="680.0" y="160.446937321937" />
+              <point x="700.0" y="155.00000000000006" />
+              <point x="-37.0" y="-0.0" />
+            </edge>
+            <edge source="com.yyl:blog-api:jar:1.0-SNAPSHOT" target="org.slf4j:slf4j-log4j12:jar:1.7.25">
+              <point x="-37.5" y="-4.5" />
+              <point x="166.0" y="632.0123456790125" />
+              <point x="166.0" y="160.446937321937" />
+              <point x="-50.0" y="5.0" />
+            </edge>
+            <edge source="com.yyl:blog-api:jar:1.0-SNAPSHOT" target="org.springframework:spring-jdbc:jar:4.3.6.RELEASE">
+              <point x="-37.5" y="8.5" />
+              <point x="466.0" y="645.0123456790125" />
+              <point x="466.0" y="789.0123456790125" />
+              <point x="-47.5" y="-7.5" />
+            </edge>
+            <edge source="com.yyl:blog-api:jar:1.0-SNAPSHOT" target="org.springframework:spring-context-support:jar:4.3.6.RELEASE">
+              <point x="-37.5" y="6.5" />
+              <point x="436.0" y="643.0123456790125" />
+              <point x="436.0" y="889.0123456790125" />
+              <point x="-85.5" y="-7.5" />
+            </edge>
+            <edge source="com.yyl:blog-api:jar:1.0-SNAPSHOT" target="org.projectlombok:lombok:jar:1.16.10">
+              <point x="-37.5" y="-7.5" />
+              <point x="196.0" y="629.0123456790125" />
+              <point x="196.0" y="401.5123456790124" />
+              <point x="-34.5" y="5.0" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.3.6.RELEASE" target="org.springframework:spring-core:jar:4.3.6.RELEASE">
+              <point x="-47.5" y="7.5" />
+              <point x="416.0" y="804.0123456790125" />
+              <point x="416.0" y="949.2396184062851" />
+              <point x="-48.0" y="-7.2727272727272805" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.3.6.RELEASE/org.springframework:spring-expression:jar:4.3.6.RELEASE" target="org.springframework:spring-core:jar:4.3.6.RELEASE">
+              <point x="-68.0" y="-6.666666666666629" />
+              <point x="680.0" y="964.0123456790125" />
+              <point x="48.0" y="7.5" />
+            </edge>
+            <edge source="com.yyl:blog-controller:1.0-SNAPSHOT" target="org.springframework.boot:spring-boot-starter-tomcat:jar:unknown">
+              <point x="58.0" y="-1.9230769230769056" />
+              <point x="136.0" y="516.5123456790125" />
+              <point x="-97.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:4.3.6.RELEASE" target="org.springframework:spring-context:jar:4.3.6.RELEASE/org.springframework:spring-expression:jar:4.3.6.RELEASE">
+              <point x="58.0" y="6.666666666666657" />
+              <point x="680.0" y="1143.179012345679" />
+              <point x="-68.0" y="-0.0" />
+            </edge>
+            <edge source="com.yyl:blog-controller:1.0-SNAPSHOT" target="org.springframework:spring-beans:jar:4.3.6.RELEASE">
+              <point x="58.0" y="6.538461538461547" />
+              <point x="136.0" y="1079.5123456790125" />
+              <point x="-53.0" y="3.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.535254135075196" x="392.0" y="428.0" />
+          <SelectedNodes>
+            <node>com.yyl:blog-controller:1.0-SNAPSHOT</node>
+            <node>org.aspectj:aspectjweaver:jar:1.6.11</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.1.RELEASE/spring-boot-2.0.1.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="759" selection-start-line="759" selection-end-line="759" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-controller/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/conf/WebInitializer.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/io/Serializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/conf/EmbeddedTomcat.java" />
+    <entry file="file://$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/conf/WebConf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/conf/ResultMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.6.RELEASE/spring-web-5.0.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-service/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/TagController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-service/src/main/java/com/yyl/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/yyl/api/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/yyl/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/WebStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-controller/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="35" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.0.6.RELEASE/spring-jdbc-5.0.6.RELEASE.jar!/org/springframework/jdbc/datasource/DriverManagerDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-service/src/main/java/com/yyl/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-service/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="32" selection-start-line="4" selection-start-column="8" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-service/src/main/java/com/yyl/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-service/src/main/java/com/yyl/dao/impl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-service/src/main/resources/dubbo.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-service/src/main/java/com/yyl/conf/ServiceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1052#1068#1" expanded="true" />
+            <element signature="e#1113#1126#1" expanded="true" />
+            <element signature="e#1170#1183#1" expanded="true" />
+            <element signature="e#1225#1233#1" expanded="true" />
+            <element signature="e#1244#1245#0" expanded="true" />
+            <element signature="e#1313#1314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-service/src/main/java/com/yyl/start/BlogStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>blogcontroller</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

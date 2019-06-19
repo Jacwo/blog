@@ -25,10 +25,10 @@ public class UserController {
 
     @RequestMapping(value = "/login",method = RequestMethod.POST)
     @ResponseBody
-    public ResultMap login(@RequestParam("username") String username,@RequestParam("password")String password){
+    public ResultMap login(@RequestBody User user){
         ResultMap resultMap=new ResultMap();
-        User userInfo=new User();
-        //  userService.login(user);
+       // User user=new User();
+        userService.login(user);
         return resultMap;
     }
 }

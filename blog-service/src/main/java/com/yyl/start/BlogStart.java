@@ -1,9 +1,6 @@
 package com.yyl.start;
-
-
 import com.yyl.conf.ServiceConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
 
 public class BlogStart {
     public static void main(String[] args) throws InterruptedException {
@@ -17,6 +14,5 @@ public class BlogStart {
         while (true){
             Thread.sleep(Integer.MAX_VALUE);
         }
-
     }
 }
