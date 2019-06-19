@@ -2,7 +2,7 @@ package com.yyl.blog.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.yyl.api.UserService;
-import com.yyl.blog.conf.ResultMap;
+import com.yyl.blog.utils.ResultMap;
 import com.yyl.model.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
