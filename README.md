@@ -1,2 +1,5 @@
 # blog
-#基于dubbo+spring+mybatis+zookeeper+docker+mysql+maven 实现一个简单的博客
+##实现一个的博客后台服务开发
+####技术栈
+- spring+dubbo+mybatis+docker+zookeepper+mysql+maven
+
