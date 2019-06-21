@@ -10,8 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class UserServiceImpl implements UserService {
     @Autowired
     private UserDao userDao;
-    public void login(User user) {
-        userDao.login(user);
-        System.out.println(" login success");
+    public User login(User user) {
+        return userDao.login(user);
     }
 }

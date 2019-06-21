@@ -28,7 +28,13 @@ public class UserController {
     public ResultMap login(@RequestBody User user){
         ResultMap resultMap=new ResultMap();
        // User user=new User();
-        userService.login(user);
+        User result=userService.login(user);
+        if(result==null){
+            resultMap.setCode(500);
+            resultMap.setStatus(500);
+            return resultMap;
+        }
+        resultMap.setData(result);
         return resultMap;
     }
 }

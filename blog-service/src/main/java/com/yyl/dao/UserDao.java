@@ -3,5 +3,6 @@ package com.yyl.dao;
 import com.yyl.model.User;
 
 public interface UserDao {
-    void login(User user);
+    User login(User user);
+    User findById(Integer id);
 }

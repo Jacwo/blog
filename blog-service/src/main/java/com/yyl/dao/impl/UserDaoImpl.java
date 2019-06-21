@@ -11,7 +11,12 @@ public class UserDaoImpl implements UserDao {
     @Autowired
     private UserMapper userMapper;
     @Override
-    public void login(User user) {
-        userMapper.login(user);
+    public User login(User user) {
+        return userMapper.login(user);
+    }
+
+    @Override
+    public User findById(Integer id) {
+        return userMapper.findById(id);
     }
 }
