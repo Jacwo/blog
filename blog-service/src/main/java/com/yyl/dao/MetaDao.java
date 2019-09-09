@@ -1,12 +1,14 @@
 package com.yyl.dao;
 
-import com.yyl.model.Meta;
-import com.yyl.model.Tag;
-import com.yyl.model.TagQuery;
+import com.yyl.model.*;
 
 import java.util.List;
 
 public interface MetaDao {
 
     Meta getMetaByArticleID(Integer articleId);
+
+    void updateLikes(LikeUser likeUser);
+
+    void updateComment(AddComment addComment);
 }

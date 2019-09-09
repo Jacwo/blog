@@ -4,9 +4,7 @@ import com.yyl.dao.MetaDao;
 import com.yyl.dao.TagDao;
 import com.yyl.mapper.MetaMapper;
 import com.yyl.mapper.TagMapper;
-import com.yyl.model.Meta;
-import com.yyl.model.Tag;
-import com.yyl.model.TagQuery;
+import com.yyl.model.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
@@ -20,5 +18,15 @@ public class MetaDaoImpl implements MetaDao {
     @Override
     public Meta getMetaByArticleID(Integer articleId) {
         return metaMapper.getTagByArticleID(articleId);
+    }
+
+    @Override
+    public void updateLikes(LikeUser likeUser) {
+        metaMapper.updateLikes(likeUser);
+    }
+
+    @Override
+    public void updateComment(AddComment addComment) {
+        metaMapper.updateComment(addComment);
     }
 }
