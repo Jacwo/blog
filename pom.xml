@@ -17,7 +17,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.5.2.RELEASE</version>
+        <version>2.0.5.RELEASE</version>
     </parent>
     <properties>
         <motan.version>0.3.0</motan.version>
