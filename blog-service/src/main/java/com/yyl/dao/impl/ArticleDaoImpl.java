@@ -23,4 +23,9 @@ public class ArticleDaoImpl implements ArticleDao {
     public ArticleDetailDto getArticleById(Integer article_id) {
         return articleMapper.getArticleById(article_id);
     }
+
+    @Override
+    public Integer createArticle(Article article) {
+        return articleMapper.createArticle(article);
+    }
 }

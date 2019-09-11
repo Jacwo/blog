@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.util.List;
 
 @Controller
-@RequestMapping("/api/article")
+@RequestMapping("/article")
 public class ArticleController {
     @Reference
     private ArticleService articleService;
@@ -36,6 +36,14 @@ public class ArticleController {
         articleService.likeArticle(likeUser);
         return resultMap;
     }
+    @RequestMapping("addArticle")
+    @ResponseBody
+    public ResultMap addArticle(@RequestBody Article article){
+        ResultMap resultMap=new ResultMap();
+
+        articleService.addArticle(article);
+        return resultMap;
+    }
 
     /***
      * {"article_id":"5d405a1896cf541789792486","user_id":"5d75ec65662d5e73c62cbae7","content":"test"}
@@ -47,7 +55,7 @@ public class ArticleController {
     public ResultMap addComment(@RequestBody AddComment addComment){
         ResultMap resultMap=new ResultMap();
         articleService.addComment(addComment);
-
+        resultMap.setData("新增成功");
         return resultMap;
     }
     @RequestMapping("addThirdComment")

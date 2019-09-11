@@ -29,4 +29,9 @@ public class MetaDaoImpl implements MetaDao {
     public void updateComment(AddComment addComment) {
         metaMapper.updateComment(addComment);
     }
+
+    @Override
+    public void create(Meta meta) {
+        metaMapper.create(meta);
+    }
 }

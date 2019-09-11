@@ -101,4 +101,52 @@ public class ArticleServiceImpl implements ArticleService {
     public void addThirdComment(AddThirdComment addThirdComment) {
         commentDao.addThirdComment(addThirdComment);
     }
+
+    @Override
+    public void addArticle(Article article) {
+        articleDao.createArticle(article);
+        Integer articleId=article.get_id();
+        TagQuery tagQuery=new TagQuery();
+        tagQuery.setPageNum(0);
+        tagQuery.setPageSize(1000);
+        List<Category> categoryList = categoryDao.getCategoryList();
+        List<Tag> tagList = tagDao.getTagList(tagQuery);
+        List<String> tags = article.getTags();
+        if(tags!=null && tags.size()>0){
+            for(String tagName:tags){
+                for(Tag tag :tagList){
+                    if(tagName.equals(tag.getName())){
+                        Tag tagByName = tagDao.getTagByName(tagName);
+                        ArticleTagInfo articleTagInfo=new ArticleTagInfo();
+                        articleTagInfo.setArticleId(articleId);
+                        articleTagInfo.setTagId(tagByName.get_id());
+                        tagDao.create(articleTagInfo);
+                    }
+                }
+            }
+
+        }
+        List<String> category = article.getCategory();
+        if(category!=null && category.size()>0){
+            for(String cat:category){
+                for(Category category1 :categoryList){
+                    if(cat.equals(category1.getName())){
+                        Category categoryByName = categoryDao.getCategoryByName(cat);
+                        ArticleCategoryInfo articleCategoryInfo=new ArticleCategoryInfo();
+                        articleCategoryInfo.setArticleId(articleId);
+                        articleCategoryInfo.setCategoryId(categoryByName.get_id());
+                        categoryDao.create(articleCategoryInfo);
+                    }
+                }
+            }
+
+        }
+        Meta meta=new Meta();
+        meta.setComments(0);
+        meta.setLikes(0);
+        meta.setViews(0);
+        meta.setArticleId(articleId);
+        metaDao.create(meta);
+       // categoryDao.create
+    }
 }

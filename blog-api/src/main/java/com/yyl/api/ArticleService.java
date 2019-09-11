@@ -15,4 +15,6 @@ public interface ArticleService {
     void addComment(AddComment addComment);
 
     void addThirdComment(AddThirdComment addThirdComment);
+
+    void addArticle(Article article);
 }

@@ -2,6 +2,7 @@ package com.yyl.mapper;
 
 
 import com.yyl.model.*;
+import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 
@@ -15,4 +16,6 @@ public interface MetaMapper {
     void updateLikes(LikeUser likeUser);
     @Update("update meta set comments =comments+1 where article_id=#{article_id}")
     void updateComment(AddComment addComment);
+    @Insert("insert into meta(likes,views,comments,article_id) values(#{likes},#{views},#{comments},#{articleId})")
+    void create(Meta meta);
 }

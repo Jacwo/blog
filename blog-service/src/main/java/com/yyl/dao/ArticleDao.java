@@ -11,4 +11,6 @@ public interface ArticleDao {
     List<Article> getArticleList(ArticleQuery articleQuery);
 
     ArticleDetailDto getArticleById(Integer article_id);
+
+    Integer createArticle(Article article);
 }

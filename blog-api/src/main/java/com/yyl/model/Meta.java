@@ -11,4 +11,5 @@ public class Meta implements Serializable {
     private Integer likes;
     private Integer views;
     private Integer comments;
+    private Integer articleId;
 }

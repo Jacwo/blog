@@ -11,4 +11,6 @@ public interface MetaDao {
     void updateLikes(LikeUser likeUser);
 
     void updateComment(AddComment addComment);
+
+    void create(Meta meta);
 }

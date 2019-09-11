@@ -3,6 +3,8 @@ package com.yyl.mapper;
 import com.yyl.model.Article;
 import com.yyl.model.ArticleDetailDto;
 import com.yyl.model.ArticleQuery;
+import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Options;
 import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
@@ -28,4 +30,8 @@ public interface ArticleMapper {
     @Select("select id as _id,title,`desc`,img_url,numbers,type,state,origin,author,content " +
             "from article where id=#{article_id}")
     ArticleDetailDto getArticleById(Integer article_id);
+    @Insert("INSERT INTO article (title,`desc`,`type`,state,origin,content,author,img_url) values" +
+            "(#{title},#{desc},#{type},#{state},#{origin},#{content},#{author},#{img_url})")
+    @Options(useGeneratedKeys = true, keyProperty = "_id", keyColumn = "id")
+    Integer createArticle(Article article);
 }
