@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.util.List;
 
 @Controller
-@RequestMapping("/article")
+@RequestMapping("/api/article")
 public class ArticleController {
     @Reference
     private ArticleService articleService;
