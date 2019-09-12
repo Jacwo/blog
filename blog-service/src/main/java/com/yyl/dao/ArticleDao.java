@@ -13,4 +13,6 @@ public interface ArticleDao {
     ArticleDetailDto getArticleById(Integer article_id);
 
     Integer createArticle(Article article);
+
+    Integer getTotalArticleCount();
 }

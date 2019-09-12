@@ -149,4 +149,9 @@ public class ArticleServiceImpl implements ArticleService {
         metaDao.create(meta);
        // categoryDao.create
     }
+
+    @Override
+    public Integer getTotalArticleCount() {
+        return articleDao.getTotalArticleCount();
+    }
 }

@@ -17,4 +17,6 @@ public interface ArticleService {
     void addThirdComment(AddThirdComment addThirdComment);
 
     void addArticle(Article article);
+
+    Integer getTotalArticleCount();
 }

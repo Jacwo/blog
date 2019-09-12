@@ -5,6 +5,7 @@ import com.yyl.model.ArticleDetailDto;
 import com.yyl.model.ArticleQuery;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Options;
+import org.apache.ibatis.annotations.ResultType;
 import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
@@ -34,4 +35,6 @@ public interface ArticleMapper {
             "(#{title},#{desc},#{type},#{state},#{origin},#{content},#{author},#{img_url})")
     @Options(useGeneratedKeys = true, keyProperty = "_id", keyColumn = "id")
     Integer createArticle(Article article);
+    @Select("select * from article")
+    List<Article> getTotalArticleCount();
 }

@@ -2,9 +2,10 @@ package com.yyl.model;
 
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import java.io.Serializable;
-import java.util.Date;
+import java.sql.Date;
 import java.util.List;
 
 @Setter
@@ -22,5 +23,6 @@ public class Article  implements Serializable {
     private List<String> tags;
     private String desc;
     private String img_url;
+    @DateTimeFormat(pattern = "yyyy-MM-dd Hh:mm:ss")
     private Date create_time;
 }

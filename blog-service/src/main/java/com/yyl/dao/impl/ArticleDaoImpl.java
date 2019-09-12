@@ -28,4 +28,10 @@ public class ArticleDaoImpl implements ArticleDao {
     public Integer createArticle(Article article) {
         return articleMapper.createArticle(article);
     }
+
+    @Override
+    public Integer getTotalArticleCount() {
+        List<Article> totalArticleCount = articleMapper.getTotalArticleCount();
+        return totalArticleCount.size();
+    }
 }

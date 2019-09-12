@@ -21,11 +21,11 @@ public class ArticleController {
     @ResponseBody
     public ResultMap getArticleList(ArticleQuery articleQuery){
         ResultMap resultMap=new ResultMap();
-        articleQuery.setPageNum(articleQuery.getPageNum()-1);
+        articleQuery.setPageNum((articleQuery.getPageNum()-1)*articleQuery.getPageSize());
         List<Article> articlesList = articleService.getArticleList(articleQuery);
         PageData pageData=new PageData();
         pageData.setList(articlesList);
-        pageData.setCount(articlesList.size());
+        pageData.setCount(articleService.getTotalArticleCount());
         resultMap.setData(pageData);
         return resultMap;
     }
@@ -42,6 +42,8 @@ public class ArticleController {
         ResultMap resultMap=new ResultMap();
 
         articleService.addArticle(article);
+        resultMap.setData("新增成功");
+
         return resultMap;
     }
 
