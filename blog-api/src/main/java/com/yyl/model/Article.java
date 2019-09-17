@@ -16,6 +16,7 @@ public class Article  implements Serializable {
     private String author;
     private String origin;
     private String content;
+    private String numbers;
     private String state;
     private String type;
     private Meta meta;

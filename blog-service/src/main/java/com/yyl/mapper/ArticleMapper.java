@@ -20,7 +20,7 @@ import java.util.List;
  **/
 public interface ArticleMapper {
 
-    @Select("<script> select id as _id,title,`desc`,img_url,create_time " +
+    @Select("<script> select id as _id,title,numbers,`desc`,img_url,create_time " +
             "from article where 1=1" +
             "<if test=\"keyword!=null and keyword !=''\"> " +
             "and keyword like %${keyword}%" +
@@ -31,8 +31,8 @@ public interface ArticleMapper {
     @Select("select id as _id,title,`desc`,img_url,numbers,type,state,origin,author,content " +
             "from article where id=#{article_id}")
     ArticleDetailDto getArticleById(Integer article_id);
-    @Insert("INSERT INTO article (title,`desc`,`type`,state,origin,content,author,img_url) values" +
-            "(#{title},#{desc},#{type},#{state},#{origin},#{content},#{author},#{img_url})")
+    @Insert("INSERT INTO article (title,`desc`,`type`,numbers,state,origin,content,author,img_url) values" +
+            "(#{title},#{desc},#{type},#{numbers},#{state},#{origin},#{content},#{author},#{img_url})")
     @Options(useGeneratedKeys = true, keyProperty = "_id", keyColumn = "id")
     Integer createArticle(Article article);
     @Select("select * from article")

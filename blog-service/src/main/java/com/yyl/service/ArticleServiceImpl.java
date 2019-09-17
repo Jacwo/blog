@@ -10,6 +10,8 @@ import java.util.List;
 @Service
 public class ArticleServiceImpl implements ArticleService {
     @Autowired
+    private RedisServiceImpl redisService;
+    @Autowired
     private ArticleDao articleDao;
     @Autowired
     private MetaDao metaDao;
@@ -38,7 +40,11 @@ public class ArticleServiceImpl implements ArticleService {
                     }
                 }
                 article.setTags(tags);
-                article.setMeta(metaDao.getMetaByArticleID(article.get_id()));
+                Meta metaByArticleID = metaDao.getMetaByArticleID(article.get_id());
+                if(redisService.get("articleId:"+article.get_id())!=null){
+                    metaByArticleID.setViews(Integer.valueOf(redisService.get("articleId:"+article.get_id())));
+                }
+                article.setMeta(metaByArticleID);
             }
         }
         return articleList;
@@ -104,6 +110,7 @@ public class ArticleServiceImpl implements ArticleService {
 
     @Override
     public void addArticle(Article article) {
+        article.setNumbers(article.getContent()!=null?article.getContent().length()+"":"0");
         articleDao.createArticle(article);
         Integer articleId=article.get_id();
         TagQuery tagQuery=new TagQuery();
