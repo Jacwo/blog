@@ -5,20 +5,23 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
-
 import javax.sql.DataSource;
 
 @Configuration
 @EnableDubbo(scanBasePackages = "com.yyl.service")
 @ComponentScan("com.yyl")
 @MapperScan("com.yyl.mapper")
-@PropertySource("classpath:/dubbo.properties")
+@PropertySource(value = {"classpath:/dubbo.properties"})
+@EnableAutoConfiguration
+@EnableCaching
 public class ServiceConfig {
     @Value("${driverClass}")
     private String driverClass;
@@ -39,6 +42,7 @@ public class ServiceConfig {
         return dataSource;
     }
 
+
     @Bean
     public DataSourceTransactionManager transactionManager() {
         return new DataSourceTransactionManager(dataSource());
@@ -50,8 +54,5 @@ public class ServiceConfig {
         sessionFactory.setDataSource(dataSource());
         return sessionFactory.getObject();
     }
-
-
-
 
 }
