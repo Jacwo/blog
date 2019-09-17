@@ -25,6 +25,7 @@ public interface ArticleMapper {
             "<if test=\"keyword!=null and keyword !=''\"> " +
             "and keyword like %${keyword}%" +
             "</if>" +
+            "order by create_time DESC " +
             "LIMIT #{pageNum},#{pageSize}"+
             "</script>")
     List<Article> getArticleList(ArticleQuery articleQuery);

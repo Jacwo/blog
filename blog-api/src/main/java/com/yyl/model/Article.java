@@ -24,6 +24,6 @@ public class Article  implements Serializable {
     private List<String> tags;
     private String desc;
     private String img_url;
-    @DateTimeFormat(pattern = "yyyy-MM-dd Hh:mm:ss")
+    @DateTimeFormat(pattern = "yyyy-MM-dd hh:mm:ss")
     private Date create_time;
 }
