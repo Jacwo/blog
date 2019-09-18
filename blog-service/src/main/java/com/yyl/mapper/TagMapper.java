@@ -28,4 +28,6 @@ public interface TagMapper {
     Tag getTagByName(String name);
     @Insert("insert into article_tag(tag_id,article_id) values(#{tagId},#{articleId})")
     void create(ArticleTagInfo articleTagInfo);
+    @Select("select total from total")
+    Integer selectTotal();
 }

@@ -22,4 +22,9 @@ public class TagServiceImpl implements TagService {
     public List<Tag> getTagByArticleID(Integer articleId) {
         return tagDao.getTagByArticleID(articleId);
     }
+
+    @Override
+    public Integer selectTotal() {
+        return tagDao.selectTotal();
+    }
 }

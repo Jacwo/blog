@@ -9,4 +9,6 @@ import java.util.List;
 public interface TagService {
     List<Tag> getTagList(TagQuery tagQuery);
     List<Tag> getTagByArticleID(Integer articleId);
+
+    Integer selectTotal();
 }

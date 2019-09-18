@@ -14,4 +14,6 @@ public interface TagDao {
     Tag getTagByName(String name);
 
     void create(ArticleTagInfo articleTagInfo);
+
+    Integer selectTotal();
 }

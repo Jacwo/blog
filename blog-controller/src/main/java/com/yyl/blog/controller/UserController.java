@@ -14,7 +14,7 @@ public class UserController {
     @Reference
     private UserService userService;
 
-    @RequestMapping(value = "/getUser",method = RequestMethod.GET)
+    @RequestMapping(value = "/getUser",method = RequestMethod.POST)
     @ResponseBody
     public ResultMap getUser(@RequestParam("code") String code){
         ResultMap resultMap=new ResultMap();

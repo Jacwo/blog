@@ -10,4 +10,5 @@ import java.io.Serializable;
 public class Tag implements Serializable {
     private Integer _id;
     private String name;
+    private Integer total;
 }

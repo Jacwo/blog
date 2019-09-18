@@ -3,8 +3,11 @@ package com.yyl.blog.controller;
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.yyl.api.ArticleService;
 import com.yyl.api.RedisService;
+import com.yyl.blog.utils.IpUtils;
 import com.yyl.blog.utils.ResultMap;
 import com.yyl.model.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,6 +20,8 @@ import java.util.concurrent.ConcurrentHashMap;
 @Controller
 @RequestMapping("/article")
 public class ArticleController {
+    protected final static Logger logger = LoggerFactory.getLogger(ArticleController.class);
+
     @Reference
     private ArticleService articleService;
     @Reference
@@ -84,27 +89,27 @@ public class ArticleController {
 
     @RequestMapping("/getArticleDetail")
     @ResponseBody
-    public ResultMap getArticleDetail(@RequestBody  ArticleDetailInput articleDetailInput, HttpServletRequest request){
+    public ResultMap getArticleDetail(@RequestBody ArticleDetailInput articleDetailInput, HttpServletRequest request){
         ResultMap resultMap=new ResultMap();
-        String remoteHost = request.getRemoteHost();
-        String key=remoteHost+"articleId:"+articleDetailInput.getId();
+        String remoteHost = IpUtils.getIpAddress(request);
+        String key="articleId:"+articleDetailInput.getId();
         String s = redisService.get(key);
         ArticleDetailDto articleDetailDto = articleService.getArticleDetail(articleDetailInput.getId());
         if(s!=null){
-            if(timesMap.containsKey(key)){
+            if(timesMap.containsKey(remoteHost+key)){
                 articleDetailDto.getMeta().setViews(Integer.valueOf(s));
             }else{
                 int time=Integer.valueOf(s);
                 time++;
-                timesMap.put(key,time);
+                timesMap.put(remoteHost+key,time);
                 redisService.set(key,String.valueOf(time));
                 articleDetailDto.getMeta().setViews(time);
             }
         }else{
             Integer time=articleDetailDto.getMeta().getViews();
-            if(!timesMap.containsKey(key)) {
+            if(!timesMap.containsKey(remoteHost+key)) {
                 time++;
-                timesMap.put(key,time);
+                timesMap.put(remoteHost+key,time);
             }
             redisService.set(key,String.valueOf(time));
             articleDetailDto.getMeta().setViews(time);

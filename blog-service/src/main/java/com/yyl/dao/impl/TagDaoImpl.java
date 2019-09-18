@@ -36,4 +36,9 @@ public class TagDaoImpl implements TagDao {
     public void create(ArticleTagInfo articleTagInfo) {
         tagMapper.create(articleTagInfo);
     }
+
+    @Override
+    public Integer selectTotal() {
+        return tagMapper.selectTotal();
+    }
 }
