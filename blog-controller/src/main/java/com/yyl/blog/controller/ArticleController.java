@@ -87,7 +87,7 @@ public class ArticleController {
     public ResultMap getArticleDetail(@RequestBody  ArticleDetailInput articleDetailInput, HttpServletRequest request){
         ResultMap resultMap=new ResultMap();
         String remoteHost = request.getRemoteHost();
-        String key="articleId:"+articleDetailInput.getId();
+        String key=remoteHost+"articleId:"+articleDetailInput.getId();
         String s = redisService.get(key);
         ArticleDetailDto articleDetailDto = articleService.getArticleDetail(articleDetailInput.getId());
         if(s!=null){

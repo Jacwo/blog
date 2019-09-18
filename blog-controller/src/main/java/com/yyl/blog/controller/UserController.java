@@ -7,8 +7,6 @@ import com.yyl.blog.utils.ResultMap;
 import com.yyl.model.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import sun.net.www.http.HttpClient;
-
 @Controller
 @RequestMapping("/user")
 public class UserController {

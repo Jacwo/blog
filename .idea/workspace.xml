@@ -7,14 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf047eea-5c46-4107-9002-1985d9417aa1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/utils/HttpClientUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/utils/StringUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-api/src/main/java/com/yyl/model/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/yyl/model/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-controller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blog-controller/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/ArticleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-service/src/main/java/com/yyl/mapper/ArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-service/src/main/java/com/yyl/mapper/ArticleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/utils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/utils/StringUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,26 +47,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-service/src/main/java/com/yyl/service/ArticleServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/ArticleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+            <state relative-caret-position="40">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4180#4181#0" expanded="true" />
-                <element signature="e#4239#4240#0" expanded="true" />
-                <element signature="e#6322#6323#0" expanded="true" />
-                <element signature="e#6378#6379#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/ArticleController.java">
+        <entry file="file://$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/CategoryController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="164">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/TagController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/TimeLineController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,8 +115,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state relative-caret-position="82">
+              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,42 +136,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/utils/StringUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/yyl/api/ArticleService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="32" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-service/src/main/java/com/yyl/dao/impl/ArticleDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-              <folding>
-                <element signature="e#813#814#0" expanded="true" />
-                <element signature="e#872#873#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-service/src/main/java/com/yyl/mapper/ArticleMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -233,15 +227,15 @@
         <option value="$PROJECT_DIR$/blog-service/src/main/java/com/yyl/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/blog-service/src/main/java/com/yyl/dao/impl/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/blog-service/src/main/java/com/yyl/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/TimeLineController.java" />
-        <option value="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/TagController.java" />
-        <option value="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/CategoryController.java" />
-        <option value="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/ArticleController.java" />
         <option value="$PROJECT_DIR$/blog-service/src/main/java/com/yyl/mapper/ArticleMapper.java" />
         <option value="$PROJECT_DIR$/blog-api/src/main/java/com/yyl/model/Article.java" />
-        <option value="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/utils/StringUtils.java" />
         <option value="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/utils/HttpClientUtil.java" />
+        <option value="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/utils/StringUtils.java" />
+        <option value="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/ArticleController.java" />
+        <option value="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/CategoryController.java" />
+        <option value="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/TagController.java" />
+        <option value="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/TimeLineController.java" />
         <option value="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/UserController.java" />
       </list>
     </option>
@@ -356,12 +350,7 @@
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="blog-controller" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
@@ -596,7 +585,7 @@
       <workItem from="1561096869240" duration="2697000" />
       <workItem from="1561346514497" duration="556000" />
       <workItem from="1567994310107" duration="18953000" />
-      <workItem from="1568085702672" duration="83844000" />
+      <workItem from="1568085702672" duration="85177000" />
     </task>
     <servers />
   </component>
@@ -609,7 +598,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167790000" />
+    <option name="totallyTimeSpent" value="169123000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -635,13 +624,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3937677" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49925596" visible="true" weight="0.4022663" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49925596" weight="0.4022663" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3299363" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49925596" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49925596" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50074404" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
@@ -1016,43 +1005,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/TimeLineController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/TagController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/CategoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog-service/src/main/java/com/yyl/mapper/ArticleMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1102,30 +1054,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/ArticleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog-service/src/main/java/com/yyl/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="12" column="105" selection-start-line="12" selection-start-column="105" selection-end-line="12" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/utils/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1136,10 +1068,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/utils/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/CategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/TagController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/TimeLineController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="82">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
