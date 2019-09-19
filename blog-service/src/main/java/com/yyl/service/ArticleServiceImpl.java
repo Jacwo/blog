@@ -29,14 +29,21 @@ public class ArticleServiceImpl implements ArticleService {
     private LikeUserDao likeUserDao;
     @Override
     public List<Article> getArticleList(ArticleQuery articleQuery) {
+        List<Article> newList=new ArrayList<>();
         List<Article> articleList = articleDao.getArticleList(articleQuery);
         if(articleList!=null){
             for(Article article:articleList){
                 List<String> tags=new ArrayList<>();
                 List<Tag> tagByArticleID = tagDao.getTagByArticleID(article.get_id());
+
                 if(tagByArticleID!=null){
                     for (Tag tag:tagByArticleID){
                         tags.add(tag.get_id()+"");
+                    }
+                }
+                if(articleQuery.getTag_id()!=null){
+                    if(!tags.contains(articleQuery.getTag_id()+"")){
+                        continue;
                     }
                 }
                 article.setTags(tags);
@@ -45,9 +52,10 @@ public class ArticleServiceImpl implements ArticleService {
                     metaByArticleID.setViews(Integer.valueOf(redisService.get("articleId:"+article.get_id())));
                 }
                 article.setMeta(metaByArticleID);
+                newList.add(article);
             }
         }
-        return articleList;
+        return newList;
     }
 
     @Override
