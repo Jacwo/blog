@@ -5,7 +5,7 @@
 - dubbo
 - mybatis
 - docker
-- zookeepper
+- zookeeper
 - mysql 
 - maven 
 - redis
