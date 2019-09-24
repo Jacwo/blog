@@ -14,7 +14,7 @@ import java.util.List;
  * author:yangyuanliang Date:2019-09-12 Time:11:06
  **/
 @Controller
-@RequestMapping("/api/time")
+@RequestMapping("/time")
 public class TimeLineController {
     @Reference
     private TimeLineService timeLineService;

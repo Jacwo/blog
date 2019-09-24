@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * author:yangyuanliang Date:2019-09-16 Time:14:28
  **/
 @Controller
-@RequestMapping("/api/test")
+@RequestMapping("/test")
 public class TestController {
     @Reference
     private RedisService redisService;
