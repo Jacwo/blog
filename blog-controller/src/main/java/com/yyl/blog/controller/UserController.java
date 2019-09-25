@@ -3,7 +3,10 @@ package com.yyl.blog.controller;
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.yyl.api.UserService;
 import com.yyl.blog.utils.HttpClientUtil;
+import com.yyl.blog.utils.JacksonJsonUtil;
 import com.yyl.blog.utils.ResultMap;
+import com.yyl.model.CodeDto;
+import com.yyl.model.GitHub;
 import com.yyl.model.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -16,14 +19,23 @@ public class UserController {
 
     @RequestMapping(value = "/getUser",method = RequestMethod.POST)
     @ResponseBody
-    public ResultMap getUser(@RequestParam("code") String code){
+    public ResultMap getUser(@RequestBody CodeDto code){
         ResultMap resultMap=new ResultMap();
         String url="https://github.com/login/oauth/access_token?client_id=4b8e4dd18ee36f991386&" +
-                "client_secret=117548602c30104262bc7c8ffb9e37f319a031a5&code=1f0476760564e35ce689code="+code;
+                "client_secret=117548602c30104262bc7c8ffb9e37f319a031a5&code="+code.getCode();
+        //private Integer _id;
+        //    private String name;
+        //    private String password;
+        //    private String email;
+        //    private String avatar;
         String s = HttpClientUtil.doGet(url, 3000);
-        String data = HttpClientUtil.doGet("https://api.github.com/user?access_token=" + s, 3000);
-        System.out.println(data);
-        resultMap.setData(data);
+        String data = HttpClientUtil.doGet("https://api.github.com/user?" + s, 3000);
+        GitHub gitHub = JacksonJsonUtil.jsonToBean(data, GitHub.class);
+        User user=new User();
+        user.set_id((int) gitHub.getId());
+        user.setAvatar(gitHub.getAvatar_url());
+        user.setName(gitHub.getLogin());
+        resultMap.setData(user);
         //转跳到 GitHub 用户授权页面， client_id 必须传
         //其他参数如果有需要就传，例如我这里需要获取用户的邮箱信息，就加了一个 scope=user:email
         //最终拼成的URL如下:
