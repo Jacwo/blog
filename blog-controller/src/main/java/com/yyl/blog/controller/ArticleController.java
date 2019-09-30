@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 
 @Controller
-@RequestMapping("/article")
+@RequestMapping("/api/article")
 public class ArticleController {
     protected final static Logger logger = LoggerFactory.getLogger(ArticleController.class);
 

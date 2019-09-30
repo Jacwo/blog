@@ -15,7 +15,7 @@ import java.util.Stack;
  * author:yangyuanliang Date:2019-09-11 Time:15:44
  **/
 @Controller
-@RequestMapping("/category")
+@RequestMapping("/api/category")
 public class CategoryController {
     @Reference
     private CategoryService categoryService;

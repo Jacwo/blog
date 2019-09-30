@@ -17,7 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Controller
-@RequestMapping("/message")
+@RequestMapping("/api/message")
 public class MessageController {
 
     @Reference

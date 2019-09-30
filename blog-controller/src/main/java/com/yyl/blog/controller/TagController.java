@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 
 @Controller
-@RequestMapping("/tag")
+@RequestMapping("/api/tag")
 public class TagController {
     @Reference
     private TagService tagService;
