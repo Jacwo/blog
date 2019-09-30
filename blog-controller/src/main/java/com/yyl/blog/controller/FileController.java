@@ -17,7 +17,7 @@ import java.util.Map;
  * author:yangyuanliang Date:2019-09-30 Time:10:18
  **/
 @Controller
-@RequestMapping("file")
+@RequestMapping("/api/file")
 public class FileController {
     @RequestMapping(value = "/down/{fileName}")
     public void fileDown(
