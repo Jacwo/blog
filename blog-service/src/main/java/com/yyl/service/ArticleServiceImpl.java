@@ -4,6 +4,8 @@ import com.yyl.api.ArticleService;
 import com.yyl.dao.*;
 import com.yyl.model.*;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -106,6 +108,7 @@ public class ArticleServiceImpl implements ArticleService {
     }
 
     @Override
+    @Transactional
     public void addComment(AddComment addComment) {
         metaDao.updateComment(addComment);
         commentDao.addComment(addComment);
@@ -117,6 +120,7 @@ public class ArticleServiceImpl implements ArticleService {
     }
 
     @Override
+    @Transactional
     public void addArticle(Article article) {
         article.setNumbers(article.getContent()!=null?article.getContent().length()+"":"0");
         articleDao.createArticle(article);
@@ -162,7 +166,7 @@ public class ArticleServiceImpl implements ArticleService {
         meta.setViews(0);
         meta.setArticleId(articleId);
         metaDao.create(meta);
-       // categoryDao.create
+
     }
 
     @Override
