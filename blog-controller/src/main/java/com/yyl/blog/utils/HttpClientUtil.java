@@ -4,9 +4,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.BufferedReader;
+import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.*;
 import java.util.Map.Entry;
@@ -19,6 +21,17 @@ public class HttpClientUtil {
 	public static final String METHOD_GET = "GET";
 
 	private static Map<String, String> cookieMap = new HashMap<String, String>();
+	public static String getAddresses(String content){
+		//调用淘宝API
+		String urlStr = "http://ip.taobao.com/service/getIpInfo2.php?ip="+content;
+		String returnStr = doGet(urlStr,300);
+		if(returnStr != null){
+			System.out.println(returnStr);
+			return  returnStr;
+		}
+		return null;
+	}
+
 
 	/**
 	 * 网络请求
@@ -140,10 +153,12 @@ public class HttpClientUtil {
 		// "http://test.1jiankang.com/api/order/notify-order-picking-status";
 		// String url =
 		// "http://test.1jiankang.com/api/order/notify-order-goods-returned";
-		String url = "http://test.1jiankang.com/api/stock/get-stock";
+
+
+		/*String url = "http://test.1jiankang.com/api/stock/get-stock";
 		String postData = "{\"orderNumber\": \"1_123456\"}";
-		// String s = HttpClientUtil.doPost(url, postData, 2000);
-		String s = HttpClientUtil.doGet(url, 2000);
+		// String s = HttpClientUtil.doPost(url, postData, 2000);*/
+		String s = getAddresses("180.167.88.42");
 		System.out.println(s);
 	}
 }

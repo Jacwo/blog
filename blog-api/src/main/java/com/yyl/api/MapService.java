@@ -1,9 +1,10 @@
 package com.yyl.api;
 
 
-import com.yyl.model.Meta;
+import com.yyl.model.Map;
+import java.util.List;
 
 
-public interface MetaService {
-    Meta getMetaByArticleID(Integer articleId);
+public interface MapService {
+    List<Map> getMapList();
 }

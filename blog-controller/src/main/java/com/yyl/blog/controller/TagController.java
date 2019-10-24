@@ -1,8 +1,10 @@
 package com.yyl.blog.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
+import com.alibaba.fastjson.JSONObject;
 import com.yyl.api.RedisService;
 import com.yyl.api.TagService;
+import com.yyl.blog.utils.HttpClientUtil;
 import com.yyl.blog.utils.IpUtils;
 import com.yyl.blog.utils.ResultMap;
 import com.yyl.model.*;
@@ -52,7 +54,13 @@ public class TagController {
             redisService.set(key,String.valueOf(time));
             pageData.setCount(time);
         }
+        String address = HttpClientUtil.getAddresses(remoteHost);
+        if(address!=null){
+            JSONObject jsonObject=JSONObject.parseObject(address);
+            String city = jsonObject.getString("city");
+            tagService.saveIP(remoteHost,city);
 
+        }
         resultMap.setData(pageData);
         return resultMap;
     }
