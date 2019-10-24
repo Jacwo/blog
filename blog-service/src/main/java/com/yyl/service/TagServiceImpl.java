@@ -27,4 +27,9 @@ public class TagServiceImpl implements TagService {
     public Integer selectTotal() {
         return tagDao.selectTotal();
     }
+
+    @Override
+    public void saveIP(String remoteHost, String city) {
+        tagDao.saveIP(remoteHost, city);
+    }
 }

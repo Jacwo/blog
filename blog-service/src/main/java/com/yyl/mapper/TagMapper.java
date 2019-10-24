@@ -1,15 +1,10 @@
 package com.yyl.mapper;
-
-
 import com.yyl.model.ArticleTagInfo;
 import com.yyl.model.Tag;
 import com.yyl.model.TagQuery;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
-
 import java.util.List;
-
-
 public interface TagMapper {
 
     @Select("<script> select id as _id,name " +
@@ -26,8 +21,10 @@ public interface TagMapper {
     List<Tag> getTagByArticleID(Integer articleId);
     @Select("select t.id as _id ,t.name from tag t where t.name=#{name}")
     Tag getTagByName(String name);
-    @Insert("insert into article_tag(tag_id,article_id) values(#{tagId},#{articleId})")
+    @Insert("insert into article_tag(tag_id,article_id) values (#{tagId},#{articleId})")
     void create(ArticleTagInfo articleTagInfo);
     @Select("select total from total")
     Integer selectTotal();
+    @Insert("insert into address(ip,city) values (#{remoteHost},#{city})")
+    void saveIP(String remoteHost, String city);
 }

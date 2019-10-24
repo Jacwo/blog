@@ -41,4 +41,9 @@ public class TagDaoImpl implements TagDao {
     public Integer selectTotal() {
         return tagMapper.selectTotal();
     }
+
+    @Override
+    public void saveIP(String remoteHost, String city) {
+        tagMapper.saveIP(remoteHost,city);
+    }
 }

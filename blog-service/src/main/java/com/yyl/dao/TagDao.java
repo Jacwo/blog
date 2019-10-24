@@ -16,4 +16,6 @@ public interface TagDao {
     void create(ArticleTagInfo articleTagInfo);
 
     Integer selectTotal();
+
+    void saveIP(String remoteHost, String city);
 }
