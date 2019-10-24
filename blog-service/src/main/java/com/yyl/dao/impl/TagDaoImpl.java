@@ -4,10 +4,7 @@ import com.yyl.dao.TagDao;
 import com.yyl.dao.UserDao;
 import com.yyl.mapper.TagMapper;
 import com.yyl.mapper.UserMapper;
-import com.yyl.model.ArticleTagInfo;
-import com.yyl.model.Tag;
-import com.yyl.model.TagQuery;
-import com.yyl.model.User;
+import com.yyl.model.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
@@ -45,5 +42,14 @@ public class TagDaoImpl implements TagDao {
     @Override
     public void saveIP(String remoteHost, String city) {
         tagMapper.saveIP(remoteHost,city);
+    }
+
+    @Override
+    public boolean queryByIp(String remoteHost) {
+        List<String> maps=tagMapper.queryByIp( remoteHost);
+        if(maps.size()>0){
+            return true;
+        }
+        return false;
     }
 }

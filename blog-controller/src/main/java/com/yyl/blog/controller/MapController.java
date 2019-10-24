@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 /**
  * author:yangyuanliang Date:2019-10-24 Time:11:30
  **/
-@Controller("/api/map")
+@Controller
+@RequestMapping("/api/map")
 public class MapController {
     @Reference
     private MapService mapService;

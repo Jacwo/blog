@@ -1,5 +1,6 @@
 package com.yyl.blog.utils;
 
+import com.alibaba.fastjson.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -159,6 +160,8 @@ public class HttpClientUtil {
 		String postData = "{\"orderNumber\": \"1_123456\"}";
 		// String s = HttpClientUtil.doPost(url, postData, 2000);*/
 		String s = getAddresses("180.167.88.42");
-		System.out.println(s);
+		JSONObject jsonObject=JSONObject.parseObject(s);
+		String city = (String) jsonObject.getJSONObject("data").get("city");
+		System.out.println(city);
 	}
 }

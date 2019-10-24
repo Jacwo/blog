@@ -18,4 +18,6 @@ public interface TagDao {
     Integer selectTotal();
 
     void saveIP(String remoteHost, String city);
+
+    boolean queryByIp(String remoteHost);
 }

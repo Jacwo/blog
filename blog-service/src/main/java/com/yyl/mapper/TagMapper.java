@@ -27,4 +27,6 @@ public interface TagMapper {
     Integer selectTotal();
     @Insert("insert into address(ip,city) values (#{remoteHost},#{city})")
     void saveIP(String remoteHost, String city);
+    @Select("select ip from address where ip=#{remoteHost}")
+    List<String> queryByIp(String remoteHost);
 }

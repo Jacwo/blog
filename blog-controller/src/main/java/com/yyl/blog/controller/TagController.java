@@ -57,8 +57,11 @@ public class TagController {
         String address = HttpClientUtil.getAddresses(remoteHost);
         if(address!=null){
             JSONObject jsonObject=JSONObject.parseObject(address);
-            String city = jsonObject.getString("city");
-            tagService.saveIP(remoteHost,city);
+            String city = (String) jsonObject.getJSONObject("data").get("city");
+            boolean result=tagService.queryByIp(remoteHost);
+            if(!result){
+                tagService.saveIP(remoteHost,city);
+            }
 
         }
         resultMap.setData(pageData);

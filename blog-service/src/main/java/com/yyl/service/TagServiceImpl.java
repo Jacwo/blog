@@ -32,4 +32,10 @@ public class TagServiceImpl implements TagService {
     public void saveIP(String remoteHost, String city) {
         tagDao.saveIP(remoteHost, city);
     }
+
+    @Override
+    public boolean queryByIp(String remoteHost) {
+
+        return tagDao.queryByIp(remoteHost);
+    }
 }

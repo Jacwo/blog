@@ -10,4 +10,6 @@ public interface TagService {
     List<Tag> getTagByArticleID(Integer articleId);
     Integer selectTotal();
     void saveIP(String remoteHost, String city);
+
+    boolean queryByIp(String remoteHost);
 }
