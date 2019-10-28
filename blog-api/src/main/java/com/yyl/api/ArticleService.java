@@ -19,4 +19,6 @@ public interface ArticleService {
     void addArticle(Article article);
 
     Integer getTotalArticleCount();
+
+    Integer getTotalLikes();
 }

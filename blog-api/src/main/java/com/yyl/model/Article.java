@@ -5,7 +5,7 @@ import lombok.Setter;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.io.Serializable;
-import java.sql.Date;
+import java.util.Date;
 import java.util.List;
 
 @Setter
@@ -24,6 +24,6 @@ public class Article  implements Serializable {
     private List<String> tags;
     private String desc;
     private String img_url;
-    @DateTimeFormat(pattern = "yyyy-MM-dd hh:mm:ss")
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date create_time;
 }

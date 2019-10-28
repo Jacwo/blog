@@ -7,5 +7,7 @@ import lombok.Setter;
 @Setter
 public class PageData<T> {
     private Integer count;
+    private Integer totalArticle;
+    private Integer totalLikes;
     private T list;
 }

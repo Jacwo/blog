@@ -173,4 +173,9 @@ public class ArticleServiceImpl implements ArticleService {
     public Integer getTotalArticleCount() {
         return articleDao.getTotalArticleCount();
     }
+
+    @Override
+    public Integer getTotalLikes() {
+        return likeUserDao.getTotalLikes().size();
+    }
 }

@@ -33,6 +33,8 @@ public class TagController {
         List<Tag> tags = tagService.getTagList(tagQuery);
         PageData pageData=new PageData();
         pageData.setList(tags);
+        pageData.setTotalArticle(Integer.valueOf(redisService.get("totalArticle")));
+        pageData.setTotalLikes(Integer.valueOf(redisService.get("totalLikes")));
         String remoteHost = IpUtils.getIpAddress(request);
         String s = redisService.get(key);
         if(s!=null){

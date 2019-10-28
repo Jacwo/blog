@@ -41,6 +41,8 @@ public class ArticleController {
         PageData pageData=new PageData();
         pageData.setList(articlesList);
         pageData.setCount(articleService.getTotalArticleCount());
+        redisService.set("totalArticle",String.valueOf(articleService.getTotalArticleCount()));
+        redisService.set("totalLikes",String.valueOf(articleService.getTotalLikes()));
         resultMap.setData(pageData);
         return resultMap;
     }

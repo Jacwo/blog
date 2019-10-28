@@ -6,6 +6,8 @@ import com.yyl.model.LikeUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 /**
  * author:yangyuanliang Date:2019-09-09 Time:14:33
  **/
@@ -17,5 +19,10 @@ public class LikeUserDaoImpl implements LikeUserDao {
     public void likeUser(LikeUser likeUser) {
 
         likeUserMappper.likeUser(likeUser);
+    }
+
+    @Override
+    public List<LikeUser> getTotalLikes() {
+        return likeUserMappper.getTotalLikes();
     }
 }
