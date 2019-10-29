@@ -122,7 +122,6 @@ public class ArticleController {
             articleDetailDto.getMeta().setViews(time);
         }
         resultMap.setData(articleDetailDto);
-        System.out.println(remoteHost);
         String address = HttpClientUtil.getAddresses(remoteHost);
         if(address!=null){
             JSONObject jsonObject=JSONObject.parseObject(address);

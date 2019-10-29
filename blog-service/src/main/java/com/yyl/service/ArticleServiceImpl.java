@@ -65,6 +65,8 @@ public class ArticleServiceImpl implements ArticleService {
         ArticleDetailDto articleDetailDto=articleDao.getArticleById(article_id);
         articleDetailDto.setCategory(categoryDao.getCategoryByArticleID(article_id));
         List<Comment> comments = commentDao.getCommentByArticleID(article_id);
+        articleDetailDto.setArticles(articleDao.getArticleList().subList(0,10));
+
         if(comments!=null){
             for(Comment comment:comments){
 

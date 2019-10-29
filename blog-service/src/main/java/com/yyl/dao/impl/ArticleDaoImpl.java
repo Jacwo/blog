@@ -20,6 +20,11 @@ public class ArticleDaoImpl implements ArticleDao {
     }
 
     @Override
+    public List<Article> getArticleList() {
+        return articleMapper.queryArticleList();
+    }
+
+    @Override
     public ArticleDetailDto getArticleById(Integer article_id) {
         return articleMapper.getArticleById(article_id);
     }

@@ -9,7 +9,7 @@ import java.util.List;
 
 public interface ArticleDao {
     List<Article> getArticleList(ArticleQuery articleQuery);
-
+    List<Article> getArticleList();
     ArticleDetailDto getArticleById(Integer article_id);
 
     Integer createArticle(Article article);

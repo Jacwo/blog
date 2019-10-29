@@ -37,4 +37,6 @@ public interface ArticleMapper {
     Integer createArticle(Article article);
     @Select("select * from article")
     List<Article> getTotalArticleCount();
+    @Select("select id as _id,title,numbers,`desc`,img_url,create_time from article")
+    List<Article> queryArticleList();
 }

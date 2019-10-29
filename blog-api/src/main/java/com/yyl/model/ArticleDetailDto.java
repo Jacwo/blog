@@ -14,6 +14,7 @@ public class ArticleDetailDto implements Serializable {
     private String title;
     private Meta meta;
     private List<Tag> tags;
+    private List<Article> articles;
     private List<Category>category;
     private List<String>keyword;
     private List<Comment> comments;
