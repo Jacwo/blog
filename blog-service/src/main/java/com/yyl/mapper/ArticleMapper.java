@@ -37,6 +37,6 @@ public interface ArticleMapper {
     Integer createArticle(Article article);
     @Select("select * from article")
     List<Article> getTotalArticleCount();
-    @Select("select id as _id,title,numbers,`desc`,img_url,create_time from article")
+    @Select("select a.id as _id,a.title,a.numbers,a.`desc`,a.img_url,a.create_time from article a left join article_tag att on att.article_id=a.id where att.tag_id!=5 ")
     List<Article> queryArticleList();
 }

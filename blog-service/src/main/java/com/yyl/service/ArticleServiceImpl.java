@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 @Service
@@ -65,8 +67,9 @@ public class ArticleServiceImpl implements ArticleService {
         ArticleDetailDto articleDetailDto=articleDao.getArticleById(article_id);
         articleDetailDto.setCategory(categoryDao.getCategoryByArticleID(article_id));
         List<Comment> comments = commentDao.getCommentByArticleID(article_id);
-        articleDetailDto.setArticles(articleDao.getArticleList().subList(0,10));
-
+        List<Article> articleList = articleDao.getArticleList();
+        Collections.shuffle(articleList);
+        articleDetailDto.setArticles(articleList.subList(0,10));
         if(comments!=null){
             for(Comment comment:comments){
 
