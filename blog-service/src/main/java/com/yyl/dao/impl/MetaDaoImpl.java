@@ -34,4 +34,9 @@ public class MetaDaoImpl implements MetaDao {
     public void create(Meta meta) {
         metaMapper.create(meta);
     }
+
+    @Override
+    public void updateViews(Integer articleId, String views) {
+        metaMapper.updateViews(articleId,views);
+    }
 }

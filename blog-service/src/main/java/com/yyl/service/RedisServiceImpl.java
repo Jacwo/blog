@@ -3,7 +3,13 @@ package com.yyl.service;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.yyl.api.RedisService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataAccessException;
+import org.springframework.data.redis.connection.RedisConnection;
+import org.springframework.data.redis.core.RedisCallback;
 import org.springframework.data.redis.core.StringRedisTemplate;
+
+import java.util.List;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -13,6 +19,13 @@ import java.util.concurrent.TimeUnit;
 public class RedisServiceImpl implements RedisService {
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
+
+    @Override
+    public Set<String> getAllKeys() {
+        Set<String> keys = stringRedisTemplate.keys("articleId:*");
+        return keys;
+    }
+
     @Override
     public void set(String key, String value) {
         stringRedisTemplate.opsForValue().set(key, value);
@@ -35,4 +48,5 @@ public class RedisServiceImpl implements RedisService {
     @Override
     public Long increment(String key, long delta) {
         return stringRedisTemplate.opsForValue().increment(key,delta);    }
+
 }

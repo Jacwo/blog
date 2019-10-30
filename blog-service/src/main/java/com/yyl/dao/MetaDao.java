@@ -13,4 +13,6 @@ public interface MetaDao {
     void updateComment(AddComment addComment);
 
     void create(Meta meta);
+
+    void updateViews(Integer articleId, String views);
 }

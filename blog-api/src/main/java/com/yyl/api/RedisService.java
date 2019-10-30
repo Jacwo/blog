@@ -1,9 +1,14 @@
 package com.yyl.api;
 
+import java.util.Set;
+
 /**
  * author:yangyuanliang Date:2019-09-16 Time:14:18
  **/
 public interface RedisService {
+
+
+    Set<String> getAllKeys();
     /**
      * 存储数据
      */

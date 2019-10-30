@@ -18,4 +18,6 @@ public interface MetaMapper {
     void updateComment(AddComment addComment);
     @Insert("insert into meta(likes,views,comments,article_id) values(#{likes},#{views},#{comments},#{articleId})")
     void create(Meta meta);
+    @Update("update meta set views=#{views} where article_id=#{articleId}")
+    void updateViews(Integer articleId, String views);
 }
