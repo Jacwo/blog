@@ -7,6 +7,7 @@ import com.yyl.api.RedisService;
 import com.yyl.api.TagService;
 import com.yyl.blog.utils.HttpClientUtil;
 import com.yyl.blog.utils.IpUtils;
+import com.yyl.blog.utils.MsgUtils;
 import com.yyl.blog.utils.ResultMap;
 import com.yyl.model.*;
 import org.slf4j.Logger;
@@ -122,16 +123,8 @@ public class ArticleController {
             articleDetailDto.getMeta().setViews(time);
         }
         resultMap.setData(articleDetailDto);
-        String address = HttpClientUtil.getAddresses(remoteHost);
-        if(address!=null){
-            JSONObject jsonObject=JSONObject.parseObject(address);
-            String city =(String) jsonObject.getJSONObject("data").get("city");
-            boolean result=tagService.queryByIp(remoteHost);
-            if(!result){
-                tagService.saveIP(remoteHost,city);
-            }
+        MsgUtils.addMsg(remoteHost);
 
-        }
         return resultMap;
     }
 

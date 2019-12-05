@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/user")
 public class UserController {
 
-    @Reference
+    @Reference(registry = "5")
     private UserService userService;
 
     @RequestMapping(value = "/getUser",method = RequestMethod.POST)

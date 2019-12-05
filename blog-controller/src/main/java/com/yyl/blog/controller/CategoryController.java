@@ -22,8 +22,6 @@ public class CategoryController {
     @RequestMapping("getCategoryList")
     @ResponseBody
     public ResultMap getCategoryList(){
-        int a[]=new int[5];
-
         ResultMap resultMap=new ResultMap();
         List<Category> tags = categoryService.getCategoryList();
         resultMap.setData(tags);
