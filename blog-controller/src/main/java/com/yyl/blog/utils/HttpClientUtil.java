@@ -25,7 +25,7 @@ public class HttpClientUtil {
 	public static String getAddresses(String content){
 		//调用淘宝API
 		String urlStr = "http://ip-api.com/json/"+content+"?lang=zh-CN";
-		String returnStr = doGet(urlStr,300);
+		String returnStr = doGet(urlStr,9000);
 		if(returnStr != null){
 			System.out.println(returnStr);
 			return  returnStr;

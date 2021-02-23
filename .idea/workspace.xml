@@ -7,12 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf047eea-5c46-4107-9002-1985d9417aa1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/thread/MsgDealThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/thread/MsgDealThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/utils/HttpClientUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/utils/HttpClientUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/utils/JacksonJsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-controller/src/main/java/com/yyl/blog/utils/JacksonJsonUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,26 +49,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>=t.idwhere at.artic</find>
-      <find>blog.article_tag</find>
-      <find>RedisProperties</find>
-      <find>EnableCaching</find>
-      <find>redis</find>
-      <find>RedisAutoConfiguration</find>
-      <find>List</find>
-      <find>effectiveLevelInt</find>
-      <find>ip</find>
-      <find>LoadBalancer</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/blog-api/src/main/java/com/yyl</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -80,12 +58,6 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="46" />
-    <option name="y" value="32" />
-    <option name="width" value="1416" />
-    <option name="height" value="798" />
   </component>
   <component name="ProjectId" id="1os94htjKY4metibdRL1OOoSMXI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -334,7 +306,7 @@
       <workItem from="1574327919220" duration="8244000" />
       <workItem from="1574677065212" duration="2236000" />
       <workItem from="1575511120834" duration="3409000" />
-      <workItem from="1614064244943" duration="2865000" />
+      <workItem from="1614064244943" duration="4982000" />
     </task>
     <servers />
   </component>
@@ -377,22 +349,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="446" height="466" key="DebuggerActiveHint/0.0.1920.1050@0.0.1920.1050" timestamp="1614066908835" />
-    <state width="1876" height="338" key="GridCell.Tab.0.bottom" timestamp="1614067054425">
+    <state width="1876" height="338" key="GridCell.Tab.0.bottom" timestamp="1614068242940">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="338" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1614067054425" />
-    <state width="1876" height="338" key="GridCell.Tab.0.center" timestamp="1614067054425">
+    <state width="1876" height="338" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1614068242940" />
+    <state width="1876" height="338" key="GridCell.Tab.0.center" timestamp="1614068242938">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="338" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1614067054425" />
-    <state width="1876" height="338" key="GridCell.Tab.0.left" timestamp="1614067054425">
+    <state width="1876" height="338" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1614068242938" />
+    <state width="1876" height="338" key="GridCell.Tab.0.left" timestamp="1614068242936">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="338" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1614067054425" />
-    <state width="1876" height="338" key="GridCell.Tab.0.right" timestamp="1614067054425">
+    <state width="1876" height="338" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1614068242936" />
+    <state width="1876" height="338" key="GridCell.Tab.0.right" timestamp="1614068242939">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="338" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1614067054425" />
+    <state width="1876" height="338" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1614068242939" />
     <state width="1876" height="348" key="GridCell.Tab.1.bottom" timestamp="1614066926027">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -413,6 +385,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="734" y="234" key="RollbackChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1614067104817" />
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1614067934924">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1614067934924" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
