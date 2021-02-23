@@ -24,7 +24,7 @@ public class HttpClientUtil {
 	private static Map<String, String> cookieMap = new HashMap<String, String>();
 	public static String getAddresses(String content){
 		//调用淘宝API
-		String urlStr = "http://ip.taobao.com/service/getIpInfo2.php?ip="+content;
+		String urlStr = "http://ip-api.com/json/"+content+"?lang=zh-CN";
 		String returnStr = doGet(urlStr,300);
 		if(returnStr != null){
 			System.out.println(returnStr);
@@ -45,8 +45,8 @@ public class HttpClientUtil {
 	 * 网络请求
 	 */
 	public static String getHttpContent(
-			String url, String method, 
-			String postData, Map<String, String> header, 
+			String url, String method,
+			String postData, Map<String, String> header,
 			int connectTimeout, int readTimeout) {
 
 		BufferedReader reader = null;
@@ -133,7 +133,7 @@ public class HttpClientUtil {
 			}
 		}
 	}
-	
+
 	public static String doGet(String url, int timeout) {
 		return getHttpContent(url, METHOD_GET, null, null, timeout);
 	}
@@ -143,8 +143,8 @@ public class HttpClientUtil {
 	}
 
 	/**
-	 * 
-	 * 
+	 *
+	 *
 	 * @param args
 	 */
 	public static void main(String[] args) {
@@ -161,7 +161,7 @@ public class HttpClientUtil {
 		// String s = HttpClientUtil.doPost(url, postData, 2000);*/
 		String s = getAddresses("180.167.88.42");
 		JSONObject jsonObject=JSONObject.parseObject(s);
-		String city = (String) jsonObject.getJSONObject("data").get("city");
+		String city = (String) jsonObject.get("city");
 		System.out.println(city);
 	}
 }

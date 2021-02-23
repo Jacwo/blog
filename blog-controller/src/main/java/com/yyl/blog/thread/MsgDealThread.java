@@ -35,7 +35,7 @@ public class MsgDealThread implements Runnable{
                     String address = HttpClientUtil.getAddresses(msg);
                     if(address!=null){
                         JSONObject jsonObject=JSONObject.parseObject(address);
-                        String city =(String) jsonObject.getJSONObject("data").get("city");
+                        String city =(String) jsonObject.get("city");
                         boolean result=tagService.queryByIp(msg);
                         if(!result){
                             tagService.saveIP(msg,city);
